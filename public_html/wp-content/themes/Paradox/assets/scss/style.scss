@@ -5,46 +5,24 @@ Author: Paradox
 Author URI: http://paradoxcreative.com
 Description: Starter Theme by Paradox
 Version: 1.0
-Text Domain: bootstrap-basic
+Text Domain: Paradox
 Domain Path: /languages/
 */
 
-#main {
-background: image_url("content-post-format-image.png");
-}
-/*
-Required WordPress CSS
-*/
+// Modules and Variables
+@import "partials/base";
 
-// .alignleft {
-//   display: inline;
-//   float: left;
-//   margin-right: 1.5em;
-// }
-// .alignright {
-//   display: inline;
-//   float: right;
-//   margin-left: 1.5em;
-// }
-// .bypostauthor {
-// }
-// .gallery-caption {
-// }
-// .sticky {
-// }
-// .wp-caption {
-//   border: 1px solid #ccc;
-//   margin-bottom: 1.5em;
-//   max-width: 100%;
-// }
-// .wp-caption img[class*="wp-image-"] {
-//   display: block;
-//   margin: 1.2% auto 0;
-//   max-width: 98%;
-// }
-// .wp-caption-text {
-//   text-align: center;
-// }
-// .wp-caption .wp-caption-text {
-//   margin: 0.8075em 0;
-// }
+// Partials (Organized by SMACSS System)
+@import "partials/layouts";
+@import "partials/modules";
+@import "partials/states";
+@import "partials/ie";
+@import "partials/print";
+@import "partials/reset";
+@import "partials/screen";
+
+// Third-party
+@import "bootstrap";
+@import "vendor/gravityforms";
+@import "vendor/font-awesome";
+@import "vendor/flexvideo";

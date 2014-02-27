@@ -31,7 +31,7 @@
 		
 		
 		
-		<div class="container page-container">
+		<!-- <div class="container page-container"> -->
 			<?php do_action('before'); ?> 
 			<header role="banner">
 				<div class="row row-with-vspace site-branding">

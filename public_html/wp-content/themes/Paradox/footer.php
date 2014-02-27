@@ -25,7 +25,7 @@
 					</div>
 				</div>
 			</footer>
-		</div><!--.container page-container-->
+		<!-- </div> --><!--.container page-container-->
 		
 		
 		<!--wordpress footer-->

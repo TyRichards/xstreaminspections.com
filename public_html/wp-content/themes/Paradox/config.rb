@@ -1,23 +1,21 @@
 # Require any additional compass plugins here.
 require 'fileutils'
+require 'bootstrap-sass'
 
 
-http_images_path = "/wp-content/themes/Paradox/assets/images/"
-
-# Settings
+# Directory Settings
 http_path = "/"
 css_dir = "assets/css"
 sass_dir = "assets/scss"
-# images_dir = "assets/images"
 javascripts_dir = "assets/js"
 fonts_dir = "assets/fonts"
+http_images_path = "/wp-content/themes/Paradox/assets/images/"
+# images_dir = "assets/images"
 
 
 output_style = :expanded
-# preferred_syntax = :scss
-# color_output = false
-# sass_options = { :debug_info => false }
-# line_comments = true
+line_comments = true
+preferred_syntax = :scss
 
 
 # If file is named style.css then move up one directory
