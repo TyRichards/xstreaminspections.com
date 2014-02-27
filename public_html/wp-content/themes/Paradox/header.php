@@ -27,57 +27,55 @@
 			<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 		<![endif]-->
 		
-		
-		
-		
-		
-		<!-- <div class="container page-container"> -->
-			<?php do_action('before'); ?> 
-			<header role="banner">
-				<div class="row row-with-vspace site-branding">
-					<div class="col-md-6 site-title">
-						<h1 class="site-title-heading">
-							<a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><?php bloginfo('name'); ?></a>
-						</h1>
-						<div class="site-description">
-							<small>
-								<?php bloginfo('description'); ?> 
-							</small>
-						</div>
-					</div>
-					<div class="col-md-6 page-header-top-right">
-						<div class="sr-only">
-							<a href="#content" title="<?php esc_attr_e('Skip to content', 'bootstrap-basic'); ?>"><?php _e('Skip to content', 'bootstrap-basic'); ?></a>
-						</div>
-						<?php if (is_active_sidebar('header-right')) { ?> 
-						<div class="pull-right">
-							<?php dynamic_sidebar('header-right'); ?> 
-						</div>
-						<div class="clearfix"></div>
-						<?php } // endif; ?> 
-					</div>
-				</div><!--.site-branding-->
-				
-				<div class="row main-navigation">
-					<div class="col-md-12">
-						<nav class="navbar navbar-default" role="navigation">
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-primary-collapse">
-									<span class="sr-only"><?php _e('Toggle navigation', 'bootstrap-basic'); ?></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
-							</div>
-							
-							<div class="collapse navbar-collapse navbar-primary-collapse">
-								<?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?> 
-								<?php dynamic_sidebar('navbar-right'); ?> 
-							</div><!--.navbar-collapse-->
-						</nav>
-					</div>
-				</div><!--.main-navigation-->
-			</header>
+		<!-- header-3 -->
+		<header class="header-3 header-section">
+		    <div class="container">
+		        <div class="row">
+		            <nav class="navbar col-sm-12">
+		                <div class="navbar-header col-sm-6">                   
+							<a class="brand" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
+									<?php bloginfo('name'); ?>
+							</a>
+							<div class="clearfix"></div>
+							<p class="site-description">								
+								<?php bloginfo('description'); ?> 								
+							</p>
+		                </div>
+		                <div class="col-sm-6">		                	
+			                <?php if (is_active_sidebar('header-right')) { ?> 
+								<div class="pull-right">
+									<?php dynamic_sidebar('header-right'); ?> 
+								</div>
+							<div class="clearfix"></div>
+							<?php } // endif; ?> 		                	
+		                </div>
+		            </nav>
+		        </div>
+		    </div>
+		    <div class="header-background"></div>
+		</header>
+
+		<!-- Header 10 -->
+		<header class="header-10">
+	        <div class="container">
+	          	<div class="row">
+	            	<div class="navbar col-sm-12" role="navigation">
+	              		<div class="navbar-header">
+	                		<button type="button" class="navbar-toggle"></button>	                
+	              		</div>	              		
+	              		<div class="collapse navbar-collapse pull-left">
+							<?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?> 			
+						</div>	              		
+	              		<form class="navbar-form pull-right">
+			                <a class="btn btn-primary" href="#">Schedule Inspection</a>
+			            </form>
+
+
+	            	</div>
+	          	</div>
+	        </div>
+	        <div class="header-background"></div>
+      	</header>		
 			
 			
-			<div id="content" class="row row-with-vspace site-content">
+		<div id="content">

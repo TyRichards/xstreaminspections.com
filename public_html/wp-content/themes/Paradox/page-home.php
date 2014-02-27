@@ -2,24 +2,23 @@
 /*
 Template Name: Home
 */
+?>
 
+<?php get_header(); ?>
 
-get_header(); 
+<!-- determine main column size from actived sidebar -->
 
-/**
- * determine main column size from actived sidebar
- */
-
-?><section class="header-11-sub bg-midnight-blue">
+<!-- Subheader Section -->
+<section class="header-11-sub bg-concrete">
     <div class="background">
         &nbsp;
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-4">
-                <h3>Features of Startup Framework</h3>
+            <div class="col-sm-5">
+                <h1>Schedule Your Inspection</h1>
                 <p>
-                    You have the design, you have the code. We’ve created the product that will help your startup to look even better.
+                    Complete the form below to schedule an inspection with us.
                 </p>
                 <div class="signup-form">
                     <form>
@@ -43,7 +42,7 @@ get_header();
                     By signing up you agree to <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
                 </div>
             </div>
-            <div class="col-sm-7 col-sm-offset-1 player-wrapper">
+            <div class="col-sm-7 player-wrapper">
                 <div class="player">
                     <iframe src="http://player.vimeo.com/video/29568236?color=3498db" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     <!--<iframe src="http://www.youtube.com/embed/BCC7rFxo6QA" allowfullscreen></iframe>-->
@@ -53,30 +52,53 @@ get_header();
     </div>
 </section>
 
-<?php
-$main_column_size = bootstrapBasicGetMainColumnSize();
-?> 
-<?php get_sidebar('left'); ?> 
-        <div class="col-md-<?php echo $main_column_size; ?> content-area" id="main-column">
-          <main id="main" class="site-main" role="main">
-            <?php 
-            while (have_posts()) {
-              the_post();
-
-              get_template_part('content', 'page');
-
-              echo "\n\n";
-              
-              // If comments are open or we have at least one comment, load up the comment template
-              if (comments_open() || '0' != get_comments_number()) {
-                comments_template();
-              }
-
-              echo "\n\n";
-
-            } //endwhile;
-            ?> 
-          </main>
+<!-- Credibility indicators -->
+<section class="logos">
+    <div class="container">
+        <div><img src="img/logos/mashable.png" alt="">
         </div>
-<?php get_sidebar('right'); ?> 
+        <div><img src="img/logos/guardian.png" alt="">
+        </div>
+        <div><img src="img/logos/forbes.png" alt="">
+        </div>
+        <div><img src="img/logos/red-bull.png" alt="">
+        </div>
+        <div><img src="img/logos/ny-times.png" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- content-9  -->
+<section class="content-9">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-7">                
+                <main id="main" class="site-main" role="main">
+                    <?php 
+                    while (have_posts()) {
+                      the_post();
+
+                      get_template_part('content', 'page');
+
+                      echo "\n\n";
+                      
+                      // If comments are open or we have at least one comment, load up the comment template
+                      if (comments_open() || '0' != get_comments_number()) {
+                        comments_template();
+                      }
+
+                      echo "\n\n";
+
+                    } //endwhile;
+                ?> 
+ 
+            </div>
+            <div class="col-sm-5">
+                <div class="col-sm-11 col-sm-offset-1"
+                <?php get_sidebar('default'); ?>                 
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php get_footer(); ?> 

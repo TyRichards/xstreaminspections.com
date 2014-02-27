@@ -1,0 +1,31 @@
+
+// Header Navigation Menu /////////////////////////////////////////////////////////////////
+
+.header-3 .navbar .navbar-toggle {
+    background-image: image-url("icons/menu-icon-dark.png");
+}
+
+// Buttons /////////////////////////////////////////////////////////////////
+
+.header-10 .navbar .btn.btn-info, .header-10 .navbar .btn-info.gform_button, .header-10 .navbar .btn.btn-primary {
+font-size: 15px;
+font-weight: normal;
+font-weight: 500;
+}
+
+// Inline Logos Menu /////////////////////////////////////////////////////////////////
+
+.logos {
+    background: #f1f1f1;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.logos > .container {
+    display: table;
+}
+
+.logos > .container > div {
+display: table-cell;
+text-align: center;
+}

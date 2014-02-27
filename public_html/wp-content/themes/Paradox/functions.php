@@ -66,8 +66,8 @@ function bootstrapBasicWidgetsInit()
 		'id'            => 'header-right',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
+		'before_title'  => '<p class="widget-title">',
+		'after_title'   => '</p>',
 	));
 	
 	register_sidebar(array(
@@ -79,22 +79,22 @@ function bootstrapBasicWidgetsInit()
 		'after_title'   => '',
 	));
 	
-	register_sidebar(array(
-		'name'          => __('Sidebar left', 'bootstrap-basic'),
-		'id'            => 'sidebar-left',
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</aside>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
-	));
+	// register_sidebar(array(
+	// 	'name'          => __('Sidebar left', 'bootstrap-basic'),
+	// 	'id'            => 'sidebar-left',
+	// 	'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+	// 	'after_widget'  => '</aside>',
+	// 	'before_title'  => '<h2 class="widget-title">',
+	// 	'after_title'   => '</h2>',
+	// ));
 	
 	register_sidebar(array(
-		'name'          => __('Sidebar right', 'bootstrap-basic'),
-		'id'            => 'sidebar-right',
+		'name'          => __('Sidebar Default', 'bootstrap-basic'),
+		'id'            => 'sidebar-default',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
 	));
 	
 	register_sidebar(array(
@@ -102,8 +102,8 @@ function bootstrapBasicWidgetsInit()
 		'id'            => 'footer-left',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
 	));
 	
 	register_sidebar(array(
@@ -111,8 +111,8 @@ function bootstrapBasicWidgetsInit()
 		'id'            => 'footer-right',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
 	));
 }// bootstrapBasicWidgetsInit
 add_action('widgets_init', 'bootstrapBasicWidgetsInit');
@@ -121,20 +121,45 @@ add_action('widgets_init', 'bootstrapBasicWidgetsInit');
 /**
  * Enqueue scripts & styles
  */
-function bootstrapBasicEnqueueScripts() 
+function load_header_scripts() 
 {
+	// Stylesheets
 	wp_enqueue_style('paradox-style', get_stylesheet_uri());
-	wp_enqueue_style('bootstrap-style', get_template_directory_uri() . '/assets/css/vendor/bootstrap.min.css');
+	// wp_enqueue_style('bootstrap-style', get_template_directory_uri() . '/assets/css/vendor/bootstrap.min.css');
 	wp_enqueue_style('shame-style', get_template_directory_uri() . '/assets/css/shame.css');
-	
-	wp_enqueue_script('modernizr-script', get_template_directory_uri() . '/assets/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js');
-	wp_enqueue_script('html5-shiv-script', get_template_directory_uri() . '/assets/js/vendor/html5shiv.js');
+
+}// bootstrapBasicEnqueueScripts
+add_action('wp_enqueue_scripts', 'load_header_scripts');
+
+
+function load_js(){
+	// Primary JS
 	wp_enqueue_script('jquery');
 	wp_enqueue_script('bootstrap-script', get_template_directory_uri() . '/assets/js/vendor/bootstrap.min.js');
-	wp_enqueue_script('main-script', get_template_directory_uri() . '/assets/js/main.js');
-}// bootstrapBasicEnqueueScripts
-add_action('wp_enqueue_scripts', 'bootstrapBasicEnqueueScripts');
+	wp_enqueue_script('modernizr-script', get_template_directory_uri() . '/assets/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js');
+	wp_enqueue_script('html5-shiv-script', get_template_directory_uri() . '/assets/js/vendor/html5shiv.js');
+	
+	// Flat UI
+	wp_enqueue_script('page-transitions', get_template_directory_uri() . '/assets/js/vendor/page-transitions.js');
+	wp_enqueue_script('startup-kit', get_template_directory_uri() . '/assets/js/vendor/startup-kit.js');
 
+	// Custom JS
+	wp_enqueue_script('main-script', get_template_directory_uri() . '/assets/js/custom.js');
+
+	// Flat UI JS
+	// <script src="js/jquery-1.8.3.min.js"></script>
+ //    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+ //    <script src="js/jquery.ui.touch-punch.min.js"></script>
+ //    <script src="js/bootstrap.min.js"></script>
+ //    <script src="js/bootstrap-select.js"></script>
+ //    <script src="js/bootstrap-switch.js"></script>
+ //    <script src="js/flatui-checkbox.js"></script>
+ //    <script src="js/flatui-radio.js"></script>
+ //    <script src="js/jquery.tagsinput.js"></script>
+ //    <script src="js/jquery.placeholder.js"></script>
+
+} 
+add_action('wp_footer', 'load_js');
 
 /**
  * Custom template tags for this theme.
