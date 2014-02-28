@@ -12,15 +12,15 @@ Domain Path: /languages/
 // Modules and Variables
 @import "partials/base";
 
+// Third Party Libraries
+@import "bootstrap";
+@import "vendor/gravityforms";
+@import "vendor/font-awesome";
+@import "vendor/flexvideo"; 
+
 // Partials (Organized by SMACSS System)
 @import "partials/layouts";
 @import "partials/modules";
 @import "partials/states";
 @import "partials/ie";
 @import "partials/print";
-
-// Third Party Libraries
-@import "bootstrap";
-@import "vendor/gravityforms";
-@import "vendor/font-awesome";
-@import "vendor/flexvideo"; 
