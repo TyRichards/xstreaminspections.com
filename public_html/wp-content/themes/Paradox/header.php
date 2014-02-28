@@ -49,7 +49,7 @@
 			</section><!--.section-top-header-->		
 			
 			<section class="top-navbar">				
-				<nav class="navbar navbar-inverse" role="navigation">
+				<nav class="navbar navbar-default" role="navigation">
 					<div class="container">
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-primary-collapse">

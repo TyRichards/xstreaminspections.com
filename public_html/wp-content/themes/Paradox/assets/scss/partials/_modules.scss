@@ -5,6 +5,19 @@
 
 // Buttons /////////////////////////////////////////////////////////////////
 
+// Image Widget /////////////////////////////////////////////////////////////////
+
+.widget {
+    
+    h2 {
+        margin-top: 0px;
+    }
+}  
+
+.widget_sp_image img {
+    height: auto;
+    @include border-radius($border-radius-img);
+}
 
 
 // Logos Section /////////////////////////////////////////////////////////////////
@@ -13,13 +26,13 @@
     background: #f1f1f1;
     padding-top: 40px;
     padding-bottom: 40px;
-}
 
-.logos > .container {
-    display: table;
-}
-
-.logos > .container > div {
-display: table-cell;
-text-align: center;
+    .container {
+        display: table;
+    
+        div {
+            display: table-cell;
+            text-align: center;
+        }
+    }
 }

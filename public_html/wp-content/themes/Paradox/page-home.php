@@ -9,7 +9,7 @@ Template Name: Home
 <!-- determine main column size from actived sidebar -->
 
 <!-- Subheader Section -->
-<!-- <section class="masthead jumbotron">
+<section class="masthead jumbotron">
 
     <div class="container">
         <div class="row">
@@ -48,7 +48,7 @@ Template Name: Home
             </div>
         </div>
     </div>
-</section> -->
+</section>
 
 <section class="primary-content">
     <div class="container">        
