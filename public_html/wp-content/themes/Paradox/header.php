@@ -70,7 +70,7 @@
         							<a href="#">Schedule Inspection</a>
         						</li>
         					</ul> -->
-							<button type="button" class="btn btn-default btn-primary navbar-btn navbar-right">Schedule Inspection</button>        					
+							<a class="btn btn-default btn-primary navbar-btn navbar-right" href="/schedule-inspection">Schedule Inspection</a>        					
 						</div><!--.navbar-collapse-->
 					</div>
 				</nav>				
@@ -78,4 +78,4 @@
 		</header>		
 			
 			
-		<div id="body-content">
+		<div class="body-content">

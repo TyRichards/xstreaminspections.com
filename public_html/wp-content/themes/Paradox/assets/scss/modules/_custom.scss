@@ -1,10 +1,14 @@
+// CUSTOM VARIABLES
 
+// Background Colors /////////////////////////////////////////////////////////////////
+
+$footer-bg-color: #ffffff;
+$header-bg-color: #ffffff;
 
 // Border Radius /////////////////////////////////////////////////////////////////
 
 $default-border-radius:     5px;
 $border-radius-img:         2px;
-
 
 // Sections Margins & Padding /////////////////////////////////////////////////////////////////
 
@@ -27,3 +31,7 @@ $space-sm-horiz:            0 $space-sm;
 $space-md-horiz:            0 $space-md;
 $space-lg-horiz:            0 $space-lg;
 $space-xl-horiz:            0 $space-xl;
+
+// Typography /////////////////////////////////////////////////////////////////
+
+$paragraph-margin: 35px 0 0 0;

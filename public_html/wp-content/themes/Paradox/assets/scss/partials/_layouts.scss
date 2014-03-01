@@ -4,6 +4,7 @@
 
 body > header {
     margin-bottom: -20px;
+    background-color: $header-bg-color;
     // background-color: $brand-primary;
 }
 
@@ -18,12 +19,23 @@ body > header {
 
 // Masthead Section /////////////////////////////////////////////////////////////////
 
+.masthead {
+    padding: $space-lg-vert;
+}
+
 // Body Content Section /////////////////////////////////////////////////////////////////
+
+.body-content {
+
+    .masthead, .primary-content, .block-section {
+        border-bottom: 1px solid darken($body-bg, 10%);             
+    }    
+}
 
 // Primary Content Section /////////////////////////////////////////////////////////////////
 
 .primary-content {
-    padding: $space-md-vert;
+    padding: $space-lg-vert;
 }
 
 // Page Content Section /////////////////////////////////////////////////////////////////
@@ -33,7 +45,7 @@ body > header {
 // Footer /////////////////////////////////////////////////////////////////
 
 .footer {
-    background-color: $gray-lighter;
+    background-color: $footer-bg-color;
 }
 
 // More-Foot Section /////////////////////////////////////////////////////////////////
@@ -45,7 +57,7 @@ body > header {
 // Small Footer Section /////////////////////////////////////////////////////////////////
 
 .small-footer {
-    background-color: $gray-light;
+    border-top: 1px solid darken($footer-bg-color, 10%);
 
     p {
         margin: $space-sm-vert;

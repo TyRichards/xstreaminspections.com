@@ -9,44 +9,24 @@ Template Name: Home
 <!-- determine main column size from actived sidebar -->
 
 <!-- Subheader Section -->
-<section class="masthead jumbotron">
+<section class="masthead">
+    <div class="container">        
+        <div class="col-sm-7">            
+            <div class="flex-video widescreen">
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-5">
-                <h1>Schedule Your Inspection</h1>
-                <p>
-                    Complete the form below to schedule an inspection with us.
-                </p>
-                <div class="signup-form">
-                    <form>
-                        <div class="form-group">
-                            <input class="form-control" type="text" placeholder="Your E-mail">
-                        </div>
-                        <div class="form-group">
-                            <div>
-                                <input type="password" class="form-control" placeholder="Password">
-                            </div>
-                            <div>
-                                <input type="password" class="form-control" placeholder="Confirmation">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-block btn-info">Sign Up</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="additional-links">
-                    By signing up you agree to <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>
-                </div>
-            </div>
-            <div class="col-sm-7 player-wrapper">
-                <div class="player">
-                    <iframe src="http://player.vimeo.com/video/29568236?color=3498db" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                    <iframe src="http://www.youtube.com/embed/BCC7rFxo6QA" allowfullscreen></iframe>
-                </div>
+                <iframe src="//player.vimeo.com/video/43363859?title=0&amp;byline=0&amp;portrait=0" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
             </div>
         </div>
+        <div class="col-sm-5">
+            <div class="col-sm-10 col-sm-offset-2">
+                <h3>Serving North Texas Since 2001</h3>
+                <p>
+                    Xstream Inspections is a “Woman Owned Business” that offers a comprehensive, in-depth detailed inspection that goes beyond what is required by the minimum standards required by the Texas Real Estate Commission.  Our 200 point, 50-100 digitally documented inspection gives you the comfort of knowing that your real estate purchase, sale or lease is being tested, inspected and analyzed by the best in the business.  Our Team of Licensed Specialists is available for telephone consultation during your structural and mechanical inspection and if needed an appointment can be made for a specialty inspection if discovery is needed.
+                </p>
+                <a class="btn btn-primary btn-lg btn-block" href="/schedule-online">Schedule Inspection</a>
+                <a class="text-center block" href="/about-us">Learn More</a>
+            </div>
+        </div>        
     </div>
 </section>
 
@@ -74,7 +54,7 @@ Template Name: Home
 
         </section>
         <section class="sidebar col-sm-5">
-            <div class="col-sm-11 col-sm-offset-1">
+            <div class="col-sm-10 col-sm-offset-2">
                 <?php get_sidebar('default'); ?>       
             </div>                       
         </section>        

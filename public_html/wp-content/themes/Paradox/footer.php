@@ -6,7 +6,7 @@
  */
 ?>
 
-			</div><!--.site-content-->	
+			</div><!--.body-content-->	
 
 			<!-- Credibility indicators -->
 			<section class="logos">
@@ -28,7 +28,7 @@
 				<section class="more-foot">
 			        <div class="container">
 					    <div class="row">
-					        <div class="col-sm-4">
+					        <div class="col-sm-5">
 				                <p class="lead">
 				                	Serving North Texas Since 2001
 				                </p>
@@ -41,7 +41,7 @@
 					            <div class="col-sm-2">
 									<?php dynamic_sidebar('footer-left'); ?>
 					            </div>
-					            <div class="col-sm-3">
+					            <div class="col-sm-2">
 					            	<?php dynamic_sidebar('footer-right'); ?>
 	<!-- 				                <h6>Follow Us</h6>
 					                <ul>
@@ -62,7 +62,8 @@
 	      		</section>	      		
 	      		<section class="small-footer">
 	      			<div class="container">
-		        		<p>© <?php echo date("Y"); ?> Xstream Inspections</p>
+		        		<p class="pull-left"><small>© <?php echo date("Y"); ?> Xstream Inspections</small></p>
+		        		<p class="pull-right">Site crafted by Paradox</p>
 		        	</div>
 		        </section>	
 	      	</footer>	
