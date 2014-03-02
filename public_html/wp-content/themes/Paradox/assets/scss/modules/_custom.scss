@@ -2,8 +2,25 @@
 
 // Background Colors /////////////////////////////////////////////////////////////////
 
-$footer-bg-color: #ffffff;
-$header-bg-color: #ffffff;
+// Bg color mixin
+
+$footer-bg-color: red;
+$header-bg-color: black;
+
+@mixin text-inset($header-bg-color) {
+  @if lightness($header-bg-color) < 50% {
+    // if the bg colour is a dark colour
+    // we need header text to turn white
+    header h3 {
+      color: #ffffff!important;
+    }
+  } @else {
+    // else it must be light so we need
+    // a black shadow, top, left
+  }
+  // // set the text colour
+  // color: $colour;
+}
 
 // Border Radius /////////////////////////////////////////////////////////////////
 
@@ -35,3 +52,8 @@ $space-xl-horiz:            0 $space-xl;
 // Typography /////////////////////////////////////////////////////////////////
 
 $paragraph-margin: 35px 0 0 0;
+
+// Font weights
+$light: 300;
+$regular: normal;
+$bold: 700;

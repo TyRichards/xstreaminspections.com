@@ -18,7 +18,7 @@ Template Name: Home
             </div>
         </div>
         <div class="col-sm-5">
-            <div class="col-sm-10 col-sm-offset-2">
+            <div class="col-sm-11 col-sm-offset-1">
                 <h3>Serving North Texas Since 2001</h3>
                 <p>
                     Xstream Inspections is a “Woman Owned Business” that offers a comprehensive, in-depth detailed inspection that goes beyond what is required by the minimum standards required by the Texas Real Estate Commission.  Our 200 point, 50-100 digitally documented inspection gives you the comfort of knowing that your real estate purchase, sale or lease is being tested, inspected and analyzed by the best in the business.  Our Team of Licensed Specialists is available for telephone consultation during your structural and mechanical inspection and if needed an appointment can be made for a specialty inspection if discovery is needed.

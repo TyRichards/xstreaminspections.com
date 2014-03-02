@@ -17,7 +17,7 @@ $brand-warning:         #f0ad4e;
 $brand-danger:          #d9534f;
 
 // Scaffolding /////////////////////////////////////////////////////////////////
-$body-bg:               $gray-lighter;
+$body-bg:               #ffffff;
 $text-color:            #7f8c8d;
 $link-color:            $brand-primary;
 $link-hover-color:      darken($link-color, 15%);
@@ -26,7 +26,7 @@ $link-hover-color:      darken($link-color, 15%);
 // Typography /////////////////////////////////////////////////////////////////
 
 // Font Families
-$font-family-sans-serif:    "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif:    "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-serif:         Georgia, "Times New Roman", Times, serif;
 $font-family-monospace:     Menlo, Monaco, Consolas, "Courier New", monospace;
 $font-family-base:          $font-family-sans-serif;
@@ -49,15 +49,9 @@ $line-height-computed: floor(($font-size-base * $line-height-base));
 
 // Heading Styles
 $headings-font-family:    inherit;
-$headings-font-weight:    500;
+$headings-font-weight:    $bold;
 $headings-line-height:    1.1;
 $headings-color:    $gray-dark;
-
-// Font weights
-$light: 100;
-$regular: 400;
-$bold: 600;
-
 
 //-- Iconography
 //
@@ -313,14 +307,14 @@ $caret-width-large:         5px;
 // // Basics of a navbar
 $navbar-height:                    70px;
 // $navbar-margin-bottom:             $line-height-computed;
-// $navbar-border-radius:             0px;
+$navbar-border-radius:             0px;
 // $navbar-padding-horizontal:        floor(($grid-gutter-width / 2));
 // $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2);
 // $navbar-collapse-max-height:       340px;
 
 // $navbar-default-color:             #777;
-$navbar-default-bg:                #ffffff;
-// $navbar-default-border:            darken($navbar-default-bg, 6.5%);
+$navbar-default-bg:                transparent;
+$navbar-default-border:            darken($footer-bg-color, 6.5%);
 
 // // Navbar links
 // $navbar-default-link-color:                #777;
