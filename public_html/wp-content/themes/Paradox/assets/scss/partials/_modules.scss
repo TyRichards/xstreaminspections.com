@@ -15,6 +15,10 @@ ol {
     display: table;
 }
 
+ol, ul {
+    margin-bottom: 0px;
+}
+
 li::before {
     // content: counter(foo) ".";
     display: table-cell; /* aha! */
@@ -56,15 +60,26 @@ border-color: $btn-secondary-border;
     font-weight: 500;
 }
 
-// Small-Footer Navigation Menus /////////////////////////////////////////////////////////////////
-
-.small-footer .footer-credits a,
-.small-footer .footer-menu .menu li a {
-    padding-right: $space-sm;
+.navbar {
+  margin-bottom: 0px;
 }
 
-.small-footer .footer-menu .menu li a {
-    font-size: $font-size-small;
+body > header > .top-navbar {
+border-bottom: 5px solid $gray-lighter;
+}
+
+// Small-Footer Navigation Menus /////////////////////////////////////////////////////////////////
+.small-footer {
+    background: $navbar-default-bg;
+    
+    .footer-credits a,
+    .footer-menu .menu li a {
+        padding-right: $space-sm;
+    }
+    
+    .footer-menu .menu li a {
+        font-size: $font-size-small;
+    }
 }
 
 // Headings /////////////////////////////////////////////////////////////////
@@ -107,7 +122,7 @@ h4, h5, h6 {
         font-family: 'FontAwesome';
         content: "\f054";
         padding-right: 15px;        
-        color: $brand-primary;
+        color: $brand-danger;
     }
 
 }
@@ -115,7 +130,7 @@ h4, h5, h6 {
 // Logos Sections /////////////////////////////////////////////////////////////////
 
 .logos {
-    background: #ffffff;
+    background: $gray-lighter;
     padding-top: 40px;
     padding-bottom: 40px;
     border-bottom: 1px solid darken($body-bg, 10%); 
@@ -134,6 +149,11 @@ h4, h5, h6 {
 
 .body-content p {
     margin: $paragraph-margin;
+}
+
+.lead {
+  font-size: $font-size-h6;
+  font-weight: $regular;
 }
 
 // Widgets /////////////////////////////////////////////////////////////////

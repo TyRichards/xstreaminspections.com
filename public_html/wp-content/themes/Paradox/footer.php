@@ -11,16 +11,15 @@
 			<!-- Credibility indicators -->
 			<section class="logos">
 			    <div class="container">
-			        <div><img src="" alt="">
+			        <div>
+			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bbb.png" alt="Better Business Bureau Accredited Business">
 			        </div>
-			        <div><img src="" alt="">
+					<div>
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/fema.png" alt="FEMA Certified Disaster Housing Inspector #15007">
 			        </div>
-			        <div><img src="" alt="">
-			        </div>
-			        <div><img src="" alt="">
-			        </div>
-			        <div><img src="" alt="">
-			        </div>
+			        <div>
+			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/tpreia.png" alt="Professional Real Estate Inspector #6196">
+			        </div>			        
 			    </div>
 			</section>					
 			
@@ -29,17 +28,29 @@
 			        <div class="container">
 					    <div class="row">
 					        <div class="col-sm-5">
-				                <p class="lead">
-				                	Serving North Texas Since 2001
-				                </p>
-				              		
-				                <p class="social-btns">				                	
-				                	<a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
-				                	<a href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-				                	<a href="#" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
-				                	<a href="#" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
-				                	<a href="#" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>			                	
-				              	</p>
+<!-- 								<div class="col-sm-12">
+									<h4>
+										<a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
+											<?php bloginfo('name'); ?>
+										</a>
+									</h4>
+									<p>						
+										<?php bloginfo('description'); ?> 						
+									</p>
+								</div> -->
+								<div class="col-sm-9">
+						        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/xstream-inspections-logo-darkbg.svg" alt="Xstream Inspections Commercial & Residential Inspections" width="100%" height="100%">
+						        </div>		
+						        <div class="clearfix"></div>
+						        <div class="col-sm-9">									   
+					                <p class="social-btns text-center">				                	
+					                	<a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+					                	<a href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+					                	<a href="#" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
+					                	<a href="#" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
+					                	<a href="#" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+					              	</p>
+					            </div>
 					        </div>
 					        <nav>
 					            <div class="col-sm-2">
@@ -58,8 +69,14 @@
 					                </ul> -->
 					            </div>
 					        </nav>
-					        <div class="col-sm-3 buy-btn">
-					            <a class="btn btn-success btn-block" href="#">Schedule Inspection</a> or <a href="#">Learn More</a>
+					        <div class="col-sm-3">
+					            <a class="btn btn-danger btn-block" href="/schedule-inspection">
+									<i class="fa fa-calendar fa-1x"></i>&nbsp;&nbsp;&nbsp;
+									Schedule Inspection
+								</a>  
+					            <p class="text-center">
+					            	or <a href="#">Learn More</a>
+					            </p>
 					        </div>
 					   </div>
 			        </div>

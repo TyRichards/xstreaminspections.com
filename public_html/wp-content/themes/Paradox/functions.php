@@ -66,8 +66,8 @@ function bootstrapBasicWidgetsInit()
 		'id'            => 'header-right',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<p class="widget-title"><small>',
-		'after_title'   => '</small></p>',
+		'before_title'  => '<p class="widget-title lead">',
+		'after_title'   => '</p>',
 	));
 	
 	register_sidebar(array(

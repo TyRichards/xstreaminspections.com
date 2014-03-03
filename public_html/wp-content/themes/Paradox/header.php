@@ -28,12 +28,15 @@
 		<header>			
 			<section class="container top-header">
 				<div class="col-md-6 header-left">
-					<h2 class="site-title">
+<!-- 					<h2 class="site-title">
 						<a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><?php bloginfo('name'); ?></a>
 					</h2>
 					<p class="site-description">						
 						<?php bloginfo('description'); ?> 						
-					</p>
+					</p> -->
+					<div class="col-sm-9">
+			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/xstream-inspections-logo-darkbg.svg" alt="Xstream Inspections Commercial & Residential Inspections" width="100%" height="100%">
+			        </div>
 				</div>
 				<div class="col-md-6 header-right">
 					<div class="sr-only">
@@ -73,7 +76,7 @@
         							</a>
         						</li>
         					</ul> -->
-							<a class="btn btn-success navbar-btn navbar-right" href="/schedule-inspection">
+							<a class="btn btn-danger navbar-btn navbar-right" href="/schedule-inspection">
 								<i class="fa fa-calendar fa-1x"></i>&nbsp;&nbsp;&nbsp;
 								Schedule Inspection
 							</a>        					
