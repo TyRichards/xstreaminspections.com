@@ -55,7 +55,7 @@
 					            </div>
 					        </nav>
 					        <div class="col-sm-3 buy-btn">
-					            <a class="btn btn-danger btn-block" href="#">Schedule Inspection</a> or <a href="#">Learn More</a>
+					            <a class="btn btn-default btn-block" href="#">Schedule Inspection</a> or <a href="#">Learn More</a>
 					        </div>
 					   </div>
 			        </div>
@@ -63,7 +63,11 @@
 	      		<section class="small-footer">
 	      			<div class="container">
 		        		<p class="pull-left"><small>© <?php echo date("Y"); ?> Xstream Inspections</small></p>
-		        		<p class="pull-right">Site crafted by Paradox</p>
+		        		<p class="pull-right">
+		        			<a href="http://paradoxcreative.com" target="_blank">
+		        				<small>Site crafted by Paradox</small>
+		        			</a>
+		        		</p>
 		        	</div>
 		        </section>	
 	      	</footer>	

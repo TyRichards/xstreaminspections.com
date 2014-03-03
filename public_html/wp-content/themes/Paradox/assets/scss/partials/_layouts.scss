@@ -2,28 +2,8 @@
 
 // Header /////////////////////////////////////////////////////////////////
 
-// body > header {
-//     margin-bottom: -20px;
-//     background-color: $header-bg-color;
-//     // background-color: $brand-primary;
-// }
-
-@mixin dynamic-background($bg-color) {
-  @if lightness($bg-color) < 50% {
-    // if the text colour is a dark colour
-    // we need a white shadow, bottom, right
-    color: #ffffff!important;
-  } @else {
-    // else it must be light so we need
-    // a black shadow, top, left
-    color: purple!important;}
-  }
-  // set the text colour
-  background-color: $bg-color;
-}
-
 body > header { 
-    @include dynamic-background(#000000); 
+    @include dynamic-bg($header-bg-color); 
     margin-bottom: -20px;
 }
 
@@ -64,8 +44,10 @@ body > header {
 // Footer /////////////////////////////////////////////////////////////////
 
 .footer {
-    background-color: $footer-bg-color;
+    @include dynamic-bg($footer-bg-color);
 }
+
+
 
 // More-Foot Section /////////////////////////////////////////////////////////////////
 

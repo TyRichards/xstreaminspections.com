@@ -1,27 +1,5 @@
 // CUSTOM VARIABLES
 
-// Background Colors /////////////////////////////////////////////////////////////////
-
-// Bg color mixin
-
-$footer-bg-color: red;
-$header-bg-color: black;
-
-@mixin text-inset($header-bg-color) {
-  @if lightness($header-bg-color) < 50% {
-    // if the bg colour is a dark colour
-    // we need header text to turn white
-    header h3 {
-      color: #ffffff!important;
-    }
-  } @else {
-    // else it must be light so we need
-    // a black shadow, top, left
-  }
-  // // set the text colour
-  // color: $colour;
-}
-
 // Border Radius /////////////////////////////////////////////////////////////////
 
 $default-border-radius:     5px;

@@ -5,7 +5,20 @@ a:hover {
 }
 
 li {
+    // counter-increment: foo;
+    display: table-row;
     list-style: none;
+}
+
+ol {
+    // counter-reset: foo;
+    display: table;
+}
+
+li::before {
+    // content: counter(foo) ".";
+    display: table-cell; /* aha! */
+    text-align: right;
 }
 
 iframe {
@@ -30,6 +43,10 @@ margin-bottom: 10px;
 }
 
 // Headings /////////////////////////////////////////////////////////////////
+
+.body-content {
+    @include dynamic-headings-color($headings-color, $body-bg, $text-color); // If header color is same as bg, then darken text color
+}
 
 h1, h2, h3 {
     margin-top: 0px;
@@ -59,10 +76,20 @@ h4, h5, h6 {
 
 // Lists /////////////////////////////////////////////////////////////////
 
-.body-content li:before {
-    font-family:'FontAwesome';
-    content:"\f14a";
-    margin-right: 15px;
+.body-content {
+
+    li:before {
+        font-family: 'FontAwesome';
+        content: "\f054";
+        padding-right: 15px;
+        font-size: 13px;
+        color: $brand-primary;
+    }
+
+    li {
+        margin-bottom: 20px!important;
+    }
+
 }
 
 // Logos Sections /////////////////////////////////////////////////////////////////
@@ -99,6 +126,18 @@ h4, h5, h6 {
 .body-content .widget {
     padding-bottom: $space-md;
 }  
+
+.sidebar .widget > div {
+    margin-top: $space-sm;    
+}
+
+.sidebar .widget div > ul, ol {
+    padding-left: 0px;
+
+    li {
+        margin-bottom: $space-xs;
+    }
+}
 
 .footer .widget {
     padding-bottom: 0px!important;

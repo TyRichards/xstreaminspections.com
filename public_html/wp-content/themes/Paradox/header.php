@@ -70,7 +70,9 @@
         							<a href="#">Schedule Inspection</a>
         						</li>
         					</ul> -->
-							<a class="btn btn-default btn-primary navbar-btn navbar-right" href="/schedule-inspection">Schedule Inspection</a>        					
+							<a class="btn btn-default btn-default navbar-btn navbar-right" href="/schedule-inspection">
+								Schedule Inspection &nbsp; <i class="fa fa-chevron-right"></i>
+							</a>        					
 						</div><!--.navbar-collapse-->
 					</div>
 				</nav>				

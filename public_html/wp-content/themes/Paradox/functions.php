@@ -93,8 +93,8 @@ function bootstrapBasicWidgetsInit()
 		'id'            => 'sidebar-default',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
 	));
 	
 	register_sidebar(array(
@@ -102,8 +102,8 @@ function bootstrapBasicWidgetsInit()
 		'id'            => 'footer-left',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
 	));
 	
 	register_sidebar(array(
@@ -111,9 +111,18 @@ function bootstrapBasicWidgetsInit()
 		'id'            => 'footer-right',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h2 class="widget-title">',
-		'after_title'   => '</h2>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
 	));
+
+	register_sidebar(array(
+		'name'          => __('Footer Credits', 'bootstrap-basic'),
+		'id'            => 'footer-credits',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h3 class="widget-title"><small>',
+		'after_title'   => '</small></h3>',
+	));	
 }// bootstrapBasicWidgetsInit
 add_action('widgets_init', 'bootstrapBasicWidgetsInit');
 
