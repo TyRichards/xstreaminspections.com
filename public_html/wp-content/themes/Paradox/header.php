@@ -61,17 +61,21 @@
 						</div>
 						
 						<div class="collapse navbar-collapse navbar-primary-collapse">
-							<?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?> 
+							<?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav navbar-left', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?> 
 							<?php if (is_active_sidebar('navbar-right')) { ?> 								
 								<?php dynamic_sidebar('navbar-right'); ?> 								
 							<?php } // endif; ?> 
-<!-- 							<ul class="nav navbar-nav navbar-right">
+							<!-- <ul class="nav navbar-nav navbar-right feature-link">
         						<li class="active">
-        							<a href="#">Schedule Inspection</a>
+        							<a href="/schedule-inspection">
+        								<i class="fa fa-calendar fa-1x"></i>&nbsp;&nbsp;&nbsp;
+        								Schedule Inspection
+        							</a>
         						</li>
         					</ul> -->
-							<a class="btn btn-default btn-default navbar-btn navbar-right" href="/schedule-inspection">
-								Schedule Inspection &nbsp; <i class="fa fa-chevron-right"></i>
+							<a class="btn btn-success navbar-btn navbar-right" href="/schedule-inspection">
+								<i class="fa fa-calendar fa-1x"></i>&nbsp;&nbsp;&nbsp;
+								Schedule Inspection
 							</a>        					
 						</div><!--.navbar-collapse-->
 					</div>

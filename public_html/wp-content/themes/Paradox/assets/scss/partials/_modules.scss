@@ -36,6 +36,20 @@ margin-bottom: 10px;
 margin-bottom: 10px;
 }
 
+.btn-secondary {
+color: $btn-secondary-color;
+background-color: $btn-secondary-bg;
+border-color: $btn-secondary-border;
+}
+
+.social-btns {
+    margin-top: $space-sm;
+
+    i {
+    margin-right: $space-sm;
+    }
+}
+
 // Header Navigation Menus /////////////////////////////////////////////////////////////////
 
 .nav > .menu-item > a {

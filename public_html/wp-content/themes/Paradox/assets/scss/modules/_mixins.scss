@@ -4,12 +4,12 @@
 @mixin dynamic-bg($bg-color) {
   @if lightness($bg-color) < 75% {
     background-color: $bg-color;
-    color: lighten($bg-color, 33%); 
-    a, h2, h3, .navbar .nav .menu-item > a { color: #ffffff; } 
-    p, .navbar .nav .menu-item > a:hover, a:hover { color: lighten($bg-color, 33%); }
+    color: lighten($bg-color, 33%);
+    a, h2, h3, ul li a, .navbar .nav .menu-item > a, .top-navbar .navbar .feature-link li a { color: #ffffff } 
+    p, .navbar .nav .menu-item > a:hover, a:hover, .top-navbar .navbar .feature-link li a:hover { color: lighten($bg-color, 33%); }
   } @else {
     background-color: $bg-color;
-    a, h2, h3, .navbar .nav .menu-item > a { color: darken($bg-color, 50%)!important; } 
+    a, h2, h3, .btn, .navbar .nav .menu-item > a { color: darken($bg-color, 50%)!important; } 
     p, .navbar .nav .menu-item > a:hover, a:hover { color: darken($bg-color, 33%)!important; }
   }
 }

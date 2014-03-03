@@ -385,10 +385,10 @@ html {
 /* line 22, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 body {
   font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.65;
   color: #7f8c8d;
-  background-color: white;
+  background-color: #ecf0f1;
 }
 
 /* line 34, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -439,7 +439,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.65;
-  background-color: white;
+  background-color: #ecf0f1;
   border: 1px solid #dddddd;
   border-radius: 5px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -456,8 +456,8 @@ img {
 
 /* line 98, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 hr {
-  margin-top: 26px;
-  margin-bottom: 26px;
+  margin-top: 28px;
+  margin-bottom: 28px;
   border: 0;
   border-top: 1px solid #eeeeee;
 }
@@ -478,9 +478,9 @@ hr {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: inherit;
-  font-weight: 700;
+  font-weight: normal;
   line-height: 1.1;
-  color: #3498db;
+  color: #555555;
 }
 /* line 17, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_type.scss */
 h1 small,
@@ -506,8 +506,8 @@ h6 .small,
 h1,
 h2,
 h3 {
-  margin-top: 26px;
-  margin-bottom: 13px;
+  margin-top: 28px;
+  margin-bottom: 14px;
 }
 /* line 31, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_type.scss */
 h1 small,
@@ -523,8 +523,8 @@ h3 .small {
 h4,
 h5,
 h6 {
-  margin-top: 13px;
-  margin-bottom: 13px;
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
 /* line 42, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_type.scss */
 h4 small,
@@ -538,50 +538,50 @@ h6 .small {
 
 /* line 47, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_type.scss */
 h1, .h1 {
-  font-size: 60px;
+  font-size: 64px;
 }
 
 /* line 48, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_type.scss */
 h2, .h2 {
-  font-size: 49px;
+  font-size: 52px;
 }
 
 /* line 49, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_type.scss */
 h3, .h3 {
-  font-size: 39px;
+  font-size: 41px;
 }
 
 /* line 50, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_type.scss */
 h4, .h4 {
-  font-size: 31px;
+  font-size: 33px;
 }
 
 /* line 51, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_type.scss */
 h5, .h5 {
-  font-size: 24px;
+  font-size: 26px;
 }
 
 /* line 52, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_type.scss */
 h6, .h6 {
-  font-size: 18px;
+  font-size: 19px;
 }
 
 /* line 58, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_type.scss */
 p {
-  margin: 0 0 13px;
+  margin: 0 0 14px;
 }
 
 /* line 62, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_type.scss */
 .lead {
-  margin-bottom: 26px;
-  font-size: 18px;
+  margin-bottom: 28px;
+  font-size: 19px;
   font-weight: 200;
   line-height: 1.4;
 }
 @media (min-width: 768px) {
   /* line 62, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_type.scss */
   .lead {
-    font-size: 24px;
+    font-size: 25.5px;
   }
 }
 
@@ -663,8 +663,8 @@ cite {
 
 /* line 128, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_type.scss */
 .page-header {
-  padding-bottom: 12px;
-  margin: 52px 0 26px;
+  padding-bottom: 13px;
+  margin: 56px 0 28px;
   border-bottom: 1px solid #eeeeee;
 }
 
@@ -672,7 +672,7 @@ cite {
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 13px;
+  margin-bottom: 14px;
 }
 /* line 144, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_type.scss */
 ul ul,
@@ -702,7 +702,7 @@ ol ol {
 /* line 173, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_type.scss */
 dl {
   margin-top: 0;
-  margin-bottom: 26px;
+  margin-bottom: 28px;
 }
 
 /* line 178, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_type.scss */
@@ -761,13 +761,13 @@ abbr[data-original-title] {
 
 /* line 225, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_type.scss */
 blockquote {
-  padding: 13px 26px;
-  margin: 0 0 26px;
+  padding: 14px 28px;
+  margin: 0 0 28px;
   border-left: 5px solid #eeeeee;
 }
 /* line 229, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_type.scss */
 blockquote p {
-  font-size: 20px;
+  font-size: 21.25px;
   font-weight: 300;
   line-height: 1.25;
 }
@@ -819,7 +819,7 @@ blockquote:after {
 
 /* line 277, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_type.scss */
 address {
-  margin-bottom: 26px;
+  margin-bottom: 28px;
   font-style: normal;
   line-height: 1.65;
 }
@@ -845,9 +845,9 @@ code {
 /* line 25, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_code.scss */
 pre {
   display: block;
-  padding: 12.5px;
-  margin: 0 0 13px;
-  font-size: 15px;
+  padding: 13.5px;
+  margin: 0 0 14px;
+  font-size: 16px;
   line-height: 1.65;
   word-break: break-all;
   word-wrap: break-word;
@@ -1987,7 +1987,7 @@ th {
 /* line 17, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_tables.scss */
 .table {
   width: 100%;
-  margin-bottom: 26px;
+  margin-bottom: 28px;
 }
 /* line 26, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_tables.scss */
 .table > thead > tr > th,
@@ -2021,7 +2021,7 @@ th {
 }
 /* line 56, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_tables.scss */
 .table .table {
-  background-color: white;
+  background-color: #ecf0f1;
 }
 
 /* line 70, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_tables.scss */
@@ -2163,7 +2163,7 @@ table th[class*="col-"] {
   /* line 170, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_tables.scss */
   .table-responsive {
     width: 100%;
-    margin-bottom: 19.5px;
+    margin-bottom: 21px;
     overflow-y: hidden;
     overflow-x: scroll;
     -ms-overflow-style: -ms-autohiding-scrollbar;
@@ -2225,8 +2225,8 @@ legend {
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: 26px;
-  font-size: 24px;
+  margin-bottom: 28px;
+  font-size: 25.5px;
   line-height: inherit;
   color: #333333;
   border: 0;
@@ -2292,7 +2292,7 @@ input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-i
 output {
   display: block;
   padding-top: 11px;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.65;
   color: #555555;
   vertical-align: middle;
@@ -2304,9 +2304,9 @@ output {
 .ginput_container textarea {
   display: block;
   width: 100%;
-  height: 48px;
+  height: 50px;
   padding: 10px 40px;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.65;
   color: #555555;
   vertical-align: middle;
@@ -2382,7 +2382,7 @@ textarea.form-control,
 .radio,
 .checkbox {
   display: block;
-  min-height: 26px;
+  min-height: 28px;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left: 20px;
@@ -2452,9 +2452,9 @@ input[type="checkbox"],
 .input-group-sm > .input-group-addon,
 .input-group-sm > .input-group-btn > .btn,
 .input-group-sm > .input-group-btn > .gform_button {
-  height: 33px;
+  height: 34px;
   padding: 5px 32px;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.5;
   border-radius: 2px;
 }
@@ -2465,8 +2465,8 @@ select.input-sm, .input-group-sm > select.form-control,
 .input-group-sm > select.input-group-addon,
 .input-group-sm > .input-group-btn > select.btn,
 .input-group-sm > .input-group-btn > select.gform_button {
-  height: 33px;
-  line-height: 33px;
+  height: 34px;
+  line-height: 34px;
 }
 
 /* line 845, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
@@ -2485,9 +2485,9 @@ textarea.input-sm, .input-group-sm > textarea.form-control,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .btn,
 .input-group-lg > .input-group-btn > .gform_button {
-  height: 59px;
+  height: 62px;
   padding: 15px 56px;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.33;
   border-radius: 4px;
 }
@@ -2498,8 +2498,8 @@ select.input-lg, .input-group-lg > select.form-control,
 .input-group-lg > select.input-group-addon,
 .input-group-lg > .input-group-btn > select.btn,
 .input-group-lg > .input-group-btn > select.gform_button {
-  height: 59px;
-  line-height: 59px;
+  height: 62px;
+  line-height: 62px;
 }
 
 /* line 845, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
@@ -2690,7 +2690,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
 /* line 355, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .form-horizontal .radio,
 .form-horizontal .checkbox {
-  min-height: 37px;
+  min-height: 39px;
 }
 /* line 360, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_forms.scss */
 .form-horizontal .form-group, .form-horizontal .gform_wrapper li, .gform_wrapper .form-horizontal li {
@@ -2729,7 +2729,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
   border: 1px solid transparent;
   white-space: nowrap;
   padding: 10px 40px;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.65;
   border-radius: 5px;
   -webkit-user-select: none;
@@ -3020,7 +3020,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
 /* line 120, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-lg, .btn-group-lg > .btn, .btn-group-lg > .gform_button {
   padding: 15px 56px;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 1.33;
   border-radius: 4px;
 }
@@ -3028,7 +3028,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
 /* line 124, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-sm, .btn-group-sm > .btn, .btn-group-sm > .gform_button {
   padding: 5px 32px;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.5;
   border-radius: 2px;
 }
@@ -3036,7 +3036,7 @@ textarea.input-lg, .input-group-lg > textarea.form-control,
 /* line 128, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-xs, .btn-group-xs > .btn, .btn-group-xs > .gform_button {
   padding: 1px 12px;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.5;
   border-radius: 2px;
 }
@@ -4147,7 +4147,7 @@ input[type="button"].btn-block {
   padding: 5px 0;
   margin: 2px 0 0;
   list-style: none;
-  font-size: 16px;
+  font-size: 17px;
   background-color: white;
   border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -4164,7 +4164,7 @@ input[type="button"].btn-block {
 /* line 55, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu .divider {
   height: 1px;
-  margin: 12px 0;
+  margin: 13px 0;
   overflow: hidden;
   background-color: #e5e5e5;
 }
@@ -4221,7 +4221,7 @@ input[type="button"].btn-block {
 .dropdown-header {
   display: block;
   padding: 3px 20px;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.65;
   color: #999999;
 }
@@ -4573,7 +4573,7 @@ input[type="button"].btn-block {
 /* line 59, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
 .input-group-addon {
   padding: 10px 40px;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: normal;
   line-height: 1;
   color: #555555;
@@ -4588,7 +4588,7 @@ input[type="button"].btn-block {
 .input-group-sm > .input-group-btn > .input-group-addon.btn,
 .input-group-sm > .input-group-btn > .input-group-addon.gform_button {
   padding: 5px 32px;
-  font-size: 14px;
+  font-size: 15px;
   border-radius: 2px;
 }
 /* line 76, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
@@ -4597,7 +4597,7 @@ input[type="button"].btn-block {
 .input-group-lg > .input-group-btn > .input-group-addon.btn,
 .input-group-lg > .input-group-btn > .input-group-addon.gform_button {
   padding: 15px 56px;
-  font-size: 20px;
+  font-size: 22px;
   border-radius: 4px;
 }
 /* line 84, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_input-groups.scss */
@@ -4725,7 +4725,7 @@ input[type="button"].btn-block {
 /* line 59, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav .nav-divider {
   height: 1px;
-  margin: 12px 0;
+  margin: 13px 0;
   overflow: hidden;
   background-color: #e5e5e5;
 }
@@ -4757,7 +4757,7 @@ input[type="button"].btn-block {
 /* line 98, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
   color: #555555;
-  background-color: white;
+  background-color: #ecf0f1;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -4850,7 +4850,7 @@ input[type="button"].btn-block {
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus,
   .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: white;
+    border-bottom-color: #ecf0f1;
   }
 }
 
@@ -4874,7 +4874,7 @@ input[type="button"].btn-block {
 .navbar {
   position: relative;
   min-height: 70px;
-  margin-bottom: 26px;
+  margin-bottom: 28px;
   border: 1px solid transparent;
 }
 /* line 21, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
@@ -5016,9 +5016,9 @@ input[type="button"].btn-block {
 /* line 150, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-brand {
   float: left;
-  padding: 22px 15px;
-  font-size: 20px;
-  line-height: 26px;
+  padding: 21px 15px;
+  font-size: 22px;
+  line-height: 28px;
 }
 /* line 157, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-brand:hover, .navbar-brand:focus {
@@ -5064,13 +5064,13 @@ input[type="button"].btn-block {
 
 /* line 207, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-nav {
-  margin: 11px -15px;
+  margin: 10.5px -15px;
 }
 /* line 210, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
-  line-height: 26px;
+  line-height: 28px;
 }
 @media (max-width: 767px) {
   /* line 218, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
@@ -5090,7 +5090,7 @@ input[type="button"].btn-block {
   }
   /* line 230, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a {
-    line-height: 26px;
+    line-height: 28px;
   }
   /* line 233, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -5109,8 +5109,8 @@ input[type="button"].btn-block {
   }
   /* line 247, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav > li > a {
-    padding-top: 22px;
-    padding-bottom: 22px;
+    padding-top: 21px;
+    padding-bottom: 21px;
   }
   /* line 253, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav.navbar-right:last-child {
@@ -5138,8 +5138,8 @@ input[type="button"].btn-block {
   border-bottom: 1px solid transparent;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  margin-top: 11px;
-  margin-bottom: 11px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 @media (max-width: 767px) {
   /* line 293, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
@@ -5187,13 +5187,13 @@ input[type="button"].btn-block {
 
 /* line 344, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-btn {
-  margin-top: 11px;
-  margin-bottom: 11px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 /* line 347, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-btn.btn-sm, .btn-group-sm > .navbar-btn.btn, .btn-group-sm > .navbar-btn.gform_button {
-  margin-top: 18.5px;
-  margin-bottom: 18.5px;
+  margin-top: 18px;
+  margin-bottom: 18px;
 }
 /* line 350, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-btn.btn-xs, .btn-group-xs > .navbar-btn.btn, .btn-group-xs > .navbar-btn.gform_button {
@@ -5203,8 +5203,8 @@ input[type="button"].btn-block {
 
 /* line 360, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-text {
-  margin-top: 22px;
-  margin-bottom: 22px;
+  margin-top: 21px;
+  margin-bottom: 21px;
 }
 @media (min-width: 768px) {
   /* line 360, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
@@ -5221,7 +5221,7 @@ input[type="button"].btn-block {
 
 /* line 379, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default {
-  background-color: transparent;
+  background-color: #2980b9;
   border-color: #217dbb;
 }
 /* line 383, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
@@ -5248,7 +5248,7 @@ input[type="button"].btn-block {
 }
 /* line 409, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #3498db;
+  color: #555555;
   background-color: transparent;
 }
 /* line 417, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
@@ -5276,7 +5276,7 @@ input[type="button"].btn-block {
 /* line 446, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
   background-color: transparent;
-  color: #3498db;
+  color: #555555;
 }
 @media (max-width: 767px) {
   /* line 455, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
@@ -5290,7 +5290,7 @@ input[type="button"].btn-block {
   }
   /* line 466, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #3498db;
+    color: #555555;
     background-color: transparent;
   }
   /* line 474, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_navbar.scss */
@@ -5408,7 +5408,7 @@ input[type="button"].btn-block {
 /* line 6, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_breadcrumbs.scss */
 .breadcrumb {
   padding: 8px 15px;
-  margin-bottom: 26px;
+  margin-bottom: 28px;
   list-style: none;
   background-color: whitesmoke;
   border-radius: 5px;
@@ -5432,7 +5432,7 @@ input[type="button"].btn-block {
 .pagination {
   display: inline-block;
   padding-left: 0;
-  margin: 26px 0;
+  margin: 28px 0;
   border-radius: 5px;
 }
 /* line 10, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_pagination.scss */
@@ -5498,7 +5498,7 @@ input[type="button"].btn-block {
 .pagination-lg > li > a,
 .pagination-lg > li > span {
   padding: 15px 56px;
-  font-size: 20px;
+  font-size: 22px;
 }
 /* line 507, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .pagination-lg > li:first-child > a,
@@ -5517,7 +5517,7 @@ input[type="button"].btn-block {
 .pagination-sm > li > a,
 .pagination-sm > li > span {
   padding: 5px 32px;
-  font-size: 14px;
+  font-size: 15px;
 }
 /* line 507, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .pagination-sm > li:first-child > a,
@@ -5535,7 +5535,7 @@ input[type="button"].btn-block {
 /* line 6, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_pager.scss */
 .pager {
   padding-left: 0;
-  margin: 26px 0;
+  margin: 28px 0;
   list-style: none;
   text-align: center;
 }
@@ -5675,7 +5675,7 @@ input[type="button"].btn-block {
   display: inline-block;
   min-width: 10px;
   padding: 3px 7px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: bold;
   color: white;
   line-height: 1;
@@ -5718,7 +5718,7 @@ a.list-group-item.active > .badge,
 .jumbotron {
   padding: 30px;
   margin-bottom: 30px;
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 200;
   line-height: 2.475;
   color: inherit;
@@ -5756,7 +5756,7 @@ a.list-group-item.active > .badge,
   /* line 42, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_jumbotron.scss */
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 72px;
+    font-size: 76.5px;
   }
 }
 
@@ -5764,9 +5764,9 @@ a.list-group-item.active > .badge,
 .thumbnail {
   display: block;
   padding: 4px;
-  margin-bottom: 26px;
+  margin-bottom: 28px;
   line-height: 1.65;
-  background-color: white;
+  background-color: #ecf0f1;
   border: 1px solid #dddddd;
   border-radius: 5px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -5797,7 +5797,7 @@ a.thumbnail.active {
 /* line 9, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_alerts.scss */
 .alert, .validation_error, #gforms_confirmation_message {
   padding: 15px;
-  margin-bottom: 26px;
+  margin-bottom: 28px;
   border: 1px solid transparent;
   border-radius: 5px;
 }
@@ -5921,8 +5921,8 @@ a.thumbnail.active {
 /* line 27, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress {
   overflow: hidden;
-  height: 26px;
-  margin-bottom: 26px;
+  height: 28px;
+  margin-bottom: 28px;
   background-color: whitesmoke;
   border-radius: 5px;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -5934,8 +5934,8 @@ a.thumbnail.active {
   float: left;
   width: 0%;
   height: 100%;
-  font-size: 14px;
-  line-height: 26px;
+  font-size: 15px;
+  line-height: 28px;
   color: white;
   text-align: center;
   background-color: #3498db;
@@ -6119,7 +6119,7 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .
 
 /* line 7, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_panels.scss */
 .panel {
-  margin-bottom: 26px;
+  margin-bottom: 28px;
   background-color: white;
   border: 1px solid transparent;
   border-radius: 5px;
@@ -6250,7 +6250,7 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .
 .panel-title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 18px;
+  font-size: 20px;
   color: inherit;
 }
 /* line 119, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_panels.scss */
@@ -6440,7 +6440,7 @@ a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .
 /* line 6, ../../../../../../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.0.3.0/vendor/assets/stylesheets/bootstrap/_close.scss */
 .close {
   float: right;
-  font-size: 24px;
+  font-size: 25.5px;
   font-weight: bold;
   line-height: 1;
   color: black;
@@ -6615,7 +6615,7 @@ button.close {
   z-index: 1030;
   display: block;
   visibility: visible;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.4;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -6767,7 +6767,7 @@ button.close {
 .popover-title {
   margin: 0;
   padding: 8px 14px;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: normal;
   line-height: 18px;
   background-color: #f7f7f7;
@@ -7842,8 +7842,8 @@ td.visible-print {
 
 @font-face {
   font-family: 'FontAwesome';
-  src: url("../fonts/fontawesome-webfont.eot?v=4.0.1");
-  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.0.1") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff?v=4.0.1") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.0.1") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular") format("svg");
+  src: url("assets/fonts/fontawesome-webfont.eot?v=4.0.1");
+  src: url("assets/fonts/fontawesome-webfont.eot?#iefix&v=4.0.1") format("embedded-opentype"), url("assets/fonts/fontawesome-webfont.woff?v=4.0.1") format("woff"), url("assets/fonts/fontawesome-webfont.ttf?v=4.0.1") format("truetype"), url("assets/fonts/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -9995,11 +9995,11 @@ body > header {
   margin-bottom: -20px;
 }
 /* line 8, ../scss/modules/_mixins.scss */
-body > header a, body > header h2, body > header h3, body > header .navbar .nav .menu-item > a {
-  color: #ffffff;
+body > header a, body > header h2, body > header h3, body > header ul li a, body > header .navbar .nav .menu-item > a, body > header .top-navbar .navbar .feature-link li a {
+  color: white;
 }
 /* line 9, ../scss/modules/_mixins.scss */
-body > header p, body > header .navbar .nav .menu-item > a:hover, body > header a:hover {
+body > header p, body > header .navbar .nav .menu-item > a:hover, body > header a:hover, body > header .top-navbar .navbar .feature-link li a:hover {
   color: #c3e1f4;
 }
 
@@ -10016,7 +10016,7 @@ body > header p, body > header .navbar .nav .menu-item > a:hover, body > header 
 
 /* line 29, ../scss/partials/_layouts.scss */
 .body-content .masthead, .body-content .primary-content, .body-content .block-section {
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid #cfd9db;
 }
 
 /* line 36, ../scss/partials/_layouts.scss */
@@ -10030,11 +10030,11 @@ body > header p, body > header .navbar .nav .menu-item > a:hover, body > header 
   color: #c3e1f4;
 }
 /* line 8, ../scss/modules/_mixins.scss */
-.footer a, .footer h2, .footer h3, .footer .navbar .nav .menu-item > a {
-  color: #ffffff;
+.footer a, .footer h2, .footer h3, .footer ul li a, .footer .navbar .nav .menu-item > a, .footer .top-navbar .navbar .feature-link li a {
+  color: white;
 }
 /* line 9, ../scss/modules/_mixins.scss */
-.footer p, .footer .navbar .nav .menu-item > a:hover, .footer a:hover {
+.footer p, .footer .navbar .nav .menu-item > a:hover, .footer a:hover, .footer .top-navbar .navbar .feature-link li a:hover {
   color: #c3e1f4;
 }
 
@@ -10078,11 +10078,11 @@ li::before {
 
 /* line 24, ../scss/partials/_modules.scss */
 iframe {
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
-  border-radius: 2px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
 }
 
 /* line 30, ../scss/partials/_modules.scss */
@@ -10096,59 +10096,75 @@ iframe {
   margin-bottom: 10px;
 }
 
-/* line 41, ../scss/partials/_modules.scss */
+/* line 39, ../scss/partials/_modules.scss */
+.btn-secondary {
+  color: white;
+  background-color: #ce4a3d;
+  border-color: #c13e31;
+}
+
+/* line 45, ../scss/partials/_modules.scss */
+.social-btns {
+  margin-top: 25px;
+}
+/* line 48, ../scss/partials/_modules.scss */
+.social-btns i {
+  margin-right: 25px;
+}
+
+/* line 55, ../scss/partials/_modules.scss */
 .nav > .menu-item > a {
   font-weight: 500;
 }
 
-/* line 48, ../scss/partials/_modules.scss */
+/* line 62, ../scss/partials/_modules.scss */
 .small-footer .footer-credits a,
 .small-footer .footer-menu .menu li a {
   padding-right: 25px;
 }
 
-/* line 52, ../scss/partials/_modules.scss */
+/* line 66, ../scss/partials/_modules.scss */
 .small-footer .footer-menu .menu li a {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 /* line 24, ../scss/modules/_mixins.scss */
 .body-content h1, .body-content h2, .body-content h3, .body-content h4, .body-content h5, .body-content h6 {
-  color: #3498db;
+  color: #555555;
 }
 /* line 25, ../scss/modules/_mixins.scss */
 .body-content p, .body-content li {
   color: #7f8c8d;
 }
 
-/* line 62, ../scss/partials/_modules.scss */
+/* line 76, ../scss/partials/_modules.scss */
 h1, h2, h3 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-/* line 67, ../scss/partials/_modules.scss */
+/* line 81, ../scss/partials/_modules.scss */
 h4, h5, h6 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-/* line 73, ../scss/partials/_modules.scss */
+/* line 87, ../scss/partials/_modules.scss */
 .top-header .widget h3 {
-  font-size: 24px;
+  font-size: 26px;
 }
 
-/* line 78, ../scss/partials/_modules.scss */
+/* line 92, ../scss/partials/_modules.scss */
 .site-title a {
-  font-size: 39px;
+  font-size: 41px;
 }
 
-/* line 84, ../scss/partials/_modules.scss */
+/* line 98, ../scss/partials/_modules.scss */
 .block {
   display: block;
 }
 
-/* line 92, ../scss/partials/_modules.scss */
+/* line 106, ../scss/partials/_modules.scss */
 .body-content ul li:before {
   font-family: 'FontAwesome';
   content: "\f054";
@@ -10156,74 +10172,74 @@ h4, h5, h6 {
   color: #3498db;
 }
 
-/* line 103, ../scss/partials/_modules.scss */
+/* line 117, ../scss/partials/_modules.scss */
 .logos {
   background: #ffffff;
   padding-top: 40px;
   padding-bottom: 40px;
-  border-bottom: 1px solid #e6e6e6;
+  border-bottom: 1px solid #cfd9db;
 }
-/* line 109, ../scss/partials/_modules.scss */
+/* line 123, ../scss/partials/_modules.scss */
 .logos .container {
   display: table;
 }
-/* line 112, ../scss/partials/_modules.scss */
+/* line 126, ../scss/partials/_modules.scss */
 .logos .container div {
   display: table-cell;
   text-align: center;
 }
 
-/* line 121, ../scss/partials/_modules.scss */
+/* line 135, ../scss/partials/_modules.scss */
 .body-content p {
   margin: 35px 0 0 0;
 }
 
-/* line 127, ../scss/partials/_modules.scss */
+/* line 141, ../scss/partials/_modules.scss */
 .widget ul.menu {
   list-style: none;
   padding-left: 0;
 }
 
-/* line 132, ../scss/partials/_modules.scss */
+/* line 146, ../scss/partials/_modules.scss */
 .body-content .widget {
   padding-bottom: 50px;
 }
 
-/* line 136, ../scss/partials/_modules.scss */
+/* line 150, ../scss/partials/_modules.scss */
 .sidebar .widget > div {
   margin-top: 25px;
 }
 
-/* line 140, ../scss/partials/_modules.scss */
+/* line 154, ../scss/partials/_modules.scss */
 .sidebar .widget div > ul, ol {
   padding-left: 0px;
 }
-/* line 143, ../scss/partials/_modules.scss */
+/* line 157, ../scss/partials/_modules.scss */
 .sidebar .widget div > ul li, ol li {
   margin-bottom: 10px;
 }
 
-/* line 148, ../scss/partials/_modules.scss */
+/* line 162, ../scss/partials/_modules.scss */
 .footer .widget {
   padding-bottom: 0px !important;
 }
 
-/* line 152, ../scss/partials/_modules.scss */
+/* line 166, ../scss/partials/_modules.scss */
 .widget_sp_image img {
   height: auto;
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
-  border-radius: 2px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
 }
 
-/* line 157, ../scss/partials/_modules.scss */
+/* line 171, ../scss/partials/_modules.scss */
 .top-header .widget-title {
   margin-bottom: 5px;
 }
 
-/* line 161, ../scss/partials/_modules.scss */
+/* line 175, ../scss/partials/_modules.scss */
 .small-footer .menu li {
   display: inline;
 }

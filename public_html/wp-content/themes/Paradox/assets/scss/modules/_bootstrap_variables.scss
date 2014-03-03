@@ -10,14 +10,15 @@ $gray-light:            lighten(#000, 60%);   // #999
 $gray-lighter:          lighten(#000, 93.5%); // #eee
 
 // Color Conventions
-$brand-primary:         #3498db; // #428bca;
+$brand-primary:         #3498db; // #4D6387; // #6AA7D0;
+$brand-secondary:       #CE4A3D; // #428bca;
 $brand-success:         #5cb85c;
 $brand-info:            #5bc0de;
 $brand-warning:         #f0ad4e;
 $brand-danger:          #d9534f;
 
 // Scaffolding /////////////////////////////////////////////////////////////////
-$body-bg:               #ffffff;
+$body-bg:               #ecf0f1;
 $footer-bg-color:       $brand-primary;
 $header-bg-color:       $brand-primary;
 $text-color:            #7f8c8d;
@@ -34,7 +35,7 @@ $font-family-monospace:     Menlo, Monaco, Consolas, "Courier New", monospace;
 $font-family-base:          $font-family-sans-serif;
 
 // Font Sizes
-$font-size-base:        16px;
+$font-size-base:        17px;
 $font-size-large:       ceil(($font-size-base * 1.25));
 $font-size-small:       ceil(($font-size-base * 0.85));
 
@@ -51,9 +52,9 @@ $line-height-computed: floor(($font-size-base * $line-height-base));
 
 // Heading Styles
 $headings-font-family:    inherit;
-$headings-font-weight:    $bold;
+$headings-font-weight:    $regular;
 $headings-line-height:    1.1;
-$headings-color:          $brand-primary;
+$headings-color:          $gray;
 
 //-- Iconography
 //
@@ -127,6 +128,10 @@ $caret-width-large:         5px;
 // $btn-primary-color:              #fff;
 // $btn-primary-bg:                 $brand-primary;
 // $btn-primary-border:             darken($btn-primary-bg, 5%);
+
+$btn-secondary-color:              #fff;
+$btn-secondary-bg:                 $brand-secondary;
+$btn-secondary-border:             darken($btn-secondary-bg, 5%);
 
 // $btn-success-color:              #fff;
 // $btn-success-bg:                 $brand-success;
@@ -315,14 +320,14 @@ $navbar-border-radius:             0px;
 // $navbar-collapse-max-height:       340px;
 
 // $navbar-default-color:             #777;
-$navbar-default-bg:                transparent;
+$navbar-default-bg:                #2980b9;
 $navbar-default-border:            darken($header-bg-color, 10%);
 
 // // Navbar links
 // $navbar-default-link-color:                #777;
 // $navbar-default-link-hover-color:          #333;
 // $navbar-default-link-hover-bg:             transparent;
-$navbar-default-link-active-color:         $brand-primary;
+// $navbar-default-link-active-color:         $brand-primary;
 $navbar-default-link-active-bg:            transparent;
 // $navbar-default-link-disabled-color:       #ccc;
 // $navbar-default-link-disabled-bg:          transparent;

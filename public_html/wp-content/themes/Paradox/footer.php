@@ -11,15 +11,15 @@
 			<!-- Credibility indicators -->
 			<section class="logos">
 			    <div class="container">
-			        <div><img src="img/logos/mashable.png" alt="">
+			        <div><img src="" alt="">
 			        </div>
-			        <div><img src="img/logos/guardian.png" alt="">
+			        <div><img src="" alt="">
 			        </div>
-			        <div><img src="img/logos/forbes.png" alt="">
+			        <div><img src="" alt="">
 			        </div>
-			        <div><img src="img/logos/red-bull.png" alt="">
+			        <div><img src="" alt="">
 			        </div>
-			        <div><img src="img/logos/ny-times.png" alt="">
+			        <div><img src="" alt="">
 			        </div>
 			    </div>
 			</section>					
@@ -32,9 +32,13 @@
 				                <p class="lead">
 				                	Serving North Texas Since 2001
 				                </p>
-				              		We’ve created the product that will help your startup to look even better.
-				                <p class="social-btns">
-				                	<img src="../../common-files/img/content/social-icons.png" alt="">
+				              		
+				                <p class="social-btns">				                	
+				                	<a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+				                	<a href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+				                	<a href="#" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
+				                	<a href="#" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
+				                	<a href="#" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>			                	
 				              	</p>
 					        </div>
 					        <nav>
@@ -55,7 +59,7 @@
 					            </div>
 					        </nav>
 					        <div class="col-sm-3 buy-btn">
-					            <a class="btn btn-default btn-block" href="#">Schedule Inspection</a> or <a href="#">Learn More</a>
+					            <a class="btn btn-success btn-block" href="#">Schedule Inspection</a> or <a href="#">Learn More</a>
 					        </div>
 					   </div>
 			        </div>
