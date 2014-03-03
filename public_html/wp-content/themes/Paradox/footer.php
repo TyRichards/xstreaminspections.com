@@ -62,12 +62,25 @@
 	      		</section>	      		
 	      		<section class="small-footer">
 	      			<div class="container">
-		        		<p class="pull-left"><small>© <?php echo date("Y"); ?> Xstream Inspections</small></p>
-		        		<p class="pull-right">
-		        			<a href="http://paradoxcreative.com" target="_blank">
-		        				<small>Site crafted by Paradox</small>
-		        			</a>
-		        		</p>
+	      				<div class="col-sm-8">
+			        		<div class="pull-left footer-credits">		        			
+			        			<small>
+			        				<a href="<?php echo esc_url(home_url('/')); ?>">
+			        					© <?php echo date("Y"); ?> <?php echo esc_attr(get_bloginfo('name', 'display')); ?>
+			        				</a>
+			        			</small>		        			
+			        		</div>
+			        		<div class="pull-left footer-menu">
+			        			<?php dynamic_sidebar('footer-credits'); ?>
+			        		</div>
+		        		</div>
+		        		<div class="col-sm-4">
+			        		<div class="pull-right">
+			        			<a href="http://paradoxcreative.com" target="_blank">
+			        				<small>Site crafted by Paradox</small>
+			        			</a>
+			        		</div>
+			        	</div>
 		        	</div>
 		        </section>	
 	      	</footer>	

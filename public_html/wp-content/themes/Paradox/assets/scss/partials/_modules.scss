@@ -4,7 +4,7 @@ a:hover {
     text-decoration: none;
 }
 
-li {
+ul li {
     // counter-increment: foo;
     display: table-row;
     list-style: none;
@@ -40,6 +40,17 @@ margin-bottom: 10px;
 
 .nav > .menu-item > a {
     font-weight: 500;
+}
+
+// Small-Footer Navigation Menus /////////////////////////////////////////////////////////////////
+
+.small-footer .footer-credits a,
+.small-footer .footer-menu .menu li a {
+    padding-right: $space-sm;
+}
+
+.small-footer .footer-menu .menu li a {
+    font-size: $font-size-small;
 }
 
 // Headings /////////////////////////////////////////////////////////////////
@@ -78,16 +89,11 @@ h4, h5, h6 {
 
 .body-content {
 
-    li:before {
+    ul li:before {
         font-family: 'FontAwesome';
         content: "\f054";
-        padding-right: 15px;
-        font-size: 13px;
+        padding-right: 15px;        
         color: $brand-primary;
-    }
-
-    li {
-        margin-bottom: 20px!important;
     }
 
 }
@@ -150,4 +156,8 @@ h4, h5, h6 {
 
 .top-header .widget-title {
     margin-bottom: 5px;
+}
+
+.small-footer .menu li {
+    display: inline;
 }

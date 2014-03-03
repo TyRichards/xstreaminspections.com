@@ -10046,10 +10046,11 @@ body > header p, body > header .navbar .nav .menu-item > a:hover, body > header 
 /* line 60, ../scss/partials/_layouts.scss */
 .small-footer {
   border-top: 1px solid #217dbb;
+  padding: 25px 0;
 }
-/* line 63, ../scss/partials/_layouts.scss */
-.small-footer p {
-  margin: 25px 0;
+/* line 64, ../scss/partials/_layouts.scss */
+.small-footer ul, .small-footer ol, .small-footer p {
+  margin-bottom: 0;
 }
 
 /* line 3, ../scss/partials/_modules.scss */
@@ -10058,7 +10059,7 @@ a:hover {
 }
 
 /* line 7, ../scss/partials/_modules.scss */
-li {
+ul li {
   display: table-row;
   list-style: none;
 }
@@ -10100,6 +10101,17 @@ iframe {
   font-weight: 500;
 }
 
+/* line 48, ../scss/partials/_modules.scss */
+.small-footer .footer-credits a,
+.small-footer .footer-menu .menu li a {
+  padding-right: 25px;
+}
+
+/* line 52, ../scss/partials/_modules.scss */
+.small-footer .footer-menu .menu li a {
+  font-size: 14px;
+}
+
 /* line 24, ../scss/modules/_mixins.scss */
 .body-content h1, .body-content h2, .body-content h3, .body-content h4, .body-content h5, .body-content h6 {
   color: #3498db;
@@ -10109,99 +10121,94 @@ iframe {
   color: #7f8c8d;
 }
 
-/* line 51, ../scss/partials/_modules.scss */
+/* line 62, ../scss/partials/_modules.scss */
 h1, h2, h3 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-/* line 56, ../scss/partials/_modules.scss */
+/* line 67, ../scss/partials/_modules.scss */
 h4, h5, h6 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-/* line 62, ../scss/partials/_modules.scss */
+/* line 73, ../scss/partials/_modules.scss */
 .top-header .widget h3 {
   font-size: 24px;
 }
 
-/* line 67, ../scss/partials/_modules.scss */
+/* line 78, ../scss/partials/_modules.scss */
 .site-title a {
   font-size: 39px;
 }
 
-/* line 73, ../scss/partials/_modules.scss */
+/* line 84, ../scss/partials/_modules.scss */
 .block {
   display: block;
 }
 
-/* line 81, ../scss/partials/_modules.scss */
-.body-content li:before {
+/* line 92, ../scss/partials/_modules.scss */
+.body-content ul li:before {
   font-family: 'FontAwesome';
   content: "\f054";
   padding-right: 15px;
-  font-size: 13px;
   color: #3498db;
 }
-/* line 89, ../scss/partials/_modules.scss */
-.body-content li {
-  margin-bottom: 20px !important;
-}
 
-/* line 97, ../scss/partials/_modules.scss */
+/* line 103, ../scss/partials/_modules.scss */
 .logos {
   background: #ffffff;
   padding-top: 40px;
   padding-bottom: 40px;
   border-bottom: 1px solid #e6e6e6;
 }
-/* line 103, ../scss/partials/_modules.scss */
+/* line 109, ../scss/partials/_modules.scss */
 .logos .container {
   display: table;
 }
-/* line 106, ../scss/partials/_modules.scss */
+/* line 112, ../scss/partials/_modules.scss */
 .logos .container div {
   display: table-cell;
   text-align: center;
 }
 
-/* line 115, ../scss/partials/_modules.scss */
+/* line 121, ../scss/partials/_modules.scss */
 .body-content p {
   margin: 35px 0 0 0;
 }
 
-/* line 121, ../scss/partials/_modules.scss */
+/* line 127, ../scss/partials/_modules.scss */
 .widget ul.menu {
   list-style: none;
   padding-left: 0;
 }
 
-/* line 126, ../scss/partials/_modules.scss */
+/* line 132, ../scss/partials/_modules.scss */
 .body-content .widget {
   padding-bottom: 50px;
 }
 
-/* line 130, ../scss/partials/_modules.scss */
+/* line 136, ../scss/partials/_modules.scss */
 .sidebar .widget > div {
   margin-top: 25px;
 }
 
-/* line 134, ../scss/partials/_modules.scss */
+/* line 140, ../scss/partials/_modules.scss */
 .sidebar .widget div > ul, ol {
   padding-left: 0px;
 }
-/* line 137, ../scss/partials/_modules.scss */
+/* line 143, ../scss/partials/_modules.scss */
 .sidebar .widget div > ul li, ol li {
   margin-bottom: 10px;
 }
 
-/* line 142, ../scss/partials/_modules.scss */
+/* line 148, ../scss/partials/_modules.scss */
 .footer .widget {
   padding-bottom: 0px !important;
 }
 
-/* line 146, ../scss/partials/_modules.scss */
+/* line 152, ../scss/partials/_modules.scss */
 .widget_sp_image img {
   height: auto;
   -webkit-border-radius: 2px;
@@ -10211,9 +10218,14 @@ h4, h5, h6 {
   border-radius: 2px;
 }
 
-/* line 151, ../scss/partials/_modules.scss */
+/* line 157, ../scss/partials/_modules.scss */
 .top-header .widget-title {
   margin-bottom: 5px;
+}
+
+/* line 161, ../scss/partials/_modules.scss */
+.small-footer .menu li {
+  display: inline;
 }
 
 /* Welcome to Compass. Use this file to write IE specific override styles.

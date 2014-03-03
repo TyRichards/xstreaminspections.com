@@ -59,8 +59,9 @@ body > header {
 
 .small-footer {
     border-top: 1px solid darken($footer-bg-color, 10%);
+    padding: $space-sm-vert;
 
-    p {
-        margin: $space-sm-vert;
+    ul, ol, p {
+        margin-bottom: 0;
     }
 }

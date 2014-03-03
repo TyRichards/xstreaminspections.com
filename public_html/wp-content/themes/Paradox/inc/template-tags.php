@@ -80,7 +80,7 @@ function bootstrapBasicComment($comment, $args, $depth) {
 					
 					echo ' ';
 					
-					edit_comment_link('<span class="fa fa-pencil-square-o "></span>' . __('Edit', 'bootstrap-basic'), '<span class="edit-link">', '</span>');
+					edit_comment_link('<span class="fa fa-pencil "></span>' . __('Edit', 'bootstrap-basic'), '<span class="edit-link">', '</span>');
 					
 					echo '</div><!-- .comment-metadata -->';
 
@@ -138,7 +138,7 @@ function bootstrapBasicCommentsPopupLink()
  */
 function bootstrapBasicEditPostLink() 
 {
-	return edit_post_link('<b class="edit-post-icon glyphicon glyphicon-pencil" title="' . __('Edit', 'bootstrap-basic') . '"></b>', '<span class="edit-post-link btn btn-default btn-xs" title="' . __('Edit', 'bootstrap-basic') . '">', '</span>');
+	return edit_post_link('<b class="edit-post-icon fa fa-pencil" title="' . __('Edit', 'bootstrap-basic') . '"></b>', '<span class="edit-post-link btn btn-default btn-xs" title="' . __('Edit', 'bootstrap-basic') . '">', '</span>');
 }// bootstrapBasicEditPostLink
 
 
