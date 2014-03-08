@@ -1,0 +1,231 @@
+// Base Styles
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    // counter-increment: foo;
+    display: table-row;
+    list-style: none;
+}
+
+ol {
+    // counter-reset: foo;
+    display: table;
+}
+
+ol, ul {
+    margin-bottom: 0px;
+}
+
+li::before {
+    // content: counter(foo) ".";
+    display: table-cell; /* aha! */
+    text-align: right;
+}
+
+iframe {
+    @include border-radius($border-radius-img);
+}
+
+.body-content img {
+border: 1px solid #dddddd;
+}
+
+// Buttons /////////////////////////////////////////////////////////////////
+
+.body-content .btn {
+margin: $paragraph-margin;
+margin-bottom: 10px;
+}
+
+.footer .btn {
+margin-bottom: 10px;
+}
+
+.btn-secondary {
+color: $btn-secondary-color;
+background-color: $btn-secondary-bg;
+border-color: $btn-secondary-border;
+}
+
+.social-btns {
+    margin-top: $space-sm;
+
+    i {
+    margin: 0 8px 0 8px;
+    }
+}
+
+// Header Navigation Menus /////////////////////////////////////////////////////////////////
+
+.nav > .menu-item > a {
+    font-weight: 500;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+body > header > .top-navbar {
+border-bottom: 5px solid $gray-lighter;
+}
+
+// Small-Footer Navigation Menus /////////////////////////////////////////////////////////////////
+.small-footer {
+    background: $navbar-default-bg;
+    
+    .footer-credits a,
+    .footer-menu .menu li a {
+        padding-right: $space-sm;
+    }
+    
+    .footer-menu .menu li a {
+        font-size: $font-size-small;
+    }
+}
+
+// Headings /////////////////////////////////////////////////////////////////
+
+.body-content {
+    @include dynamic-headings-color($headings-color, $body-bg, $text-color); // If header color is same as bg, then darken text color
+}
+
+h1, h2, h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h4, h5, h6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+// Phone Number
+.top-header .widget h3 {
+    font-size: 26px;
+    font-family: "proxima-nova";
+    font-weight: bold;
+}
+
+// Site Title
+.site-title a {
+    font-size: $font-size-h3;
+}
+
+// Links /////////////////////////////////////////////////////////////////
+
+.block {
+    display: block;
+}
+
+// Lists /////////////////////////////////////////////////////////////////
+
+.body-content {
+
+    ul li:before {
+        font-family: 'FontAwesome';
+        content: "\f054";
+        padding-right: 15px;        
+        color: $brand-danger;
+    }
+
+}
+
+// Logos Sections /////////////////////////////////////////////////////////////////
+
+.logos {
+    background: $gray-lighter;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid darken($body-bg, 10%); 
+
+    .container {
+        display: table;
+    
+        div {
+            display: table-cell;
+            text-align: center;
+        }
+    }
+}
+
+// Paragraph /////////////////////////////////////////////////////////////////
+
+.body-content p {
+    margin: $paragraph-margin;
+}
+
+.lead {
+  font-size: $font-size-h6;
+  font-weight: $regular;
+}
+
+// Widgets /////////////////////////////////////////////////////////////////
+
+.widget ul.menu {
+    list-style: none;
+    padding-left: 0;
+}
+
+.body-content .widget {
+    padding-bottom: $space-md;
+}  
+
+.sidebar .widget > div {
+    margin-top: $space-sm;    
+}
+
+.sidebar .widget div > ul, ol {
+    padding-left: 0px;
+
+    li {
+        margin-bottom: $space-xs;
+    }
+}
+
+.footer .widget {
+    padding-bottom: 0px!important;
+}
+
+.widget_sp_image img {
+    height: auto;
+    @include border-radius($border-radius-img);
+}
+
+.top-header .widget-title {
+    margin-bottom: 5px;
+}
+
+.small-footer .menu li {
+    display: inline;
+}
+
+// Video Player /////////////////////////////////////////////////////////////////
+
+.btn-play {
+z-index: 1000;
+position: absolute;
+left: 50%;
+top: 50%;
+color: #ffffff;
+margin-left: -34px;
+margin-top: -40px;
+}
+
+.player {
+@include border-radius($border-radius-img);
+// background-size: 100% auto;
+// background-attachment: fixed;
+background: #000000;
+// height: 357px;
+}
+
+.flex-video img {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
