@@ -65,17 +65,10 @@
 						
 						<div class="collapse navbar-collapse navbar-primary-collapse">
 							<?php wp_nav_menu(array('theme_location' => 'primary', 'container' => false, 'menu_class' => 'nav navbar-nav navbar-left', 'walker' => new BootstrapBasicMyWalkerNavMenu())); ?> 
-							<?php if (is_active_sidebar('navbar-right')) { ?> 								
-								<?php dynamic_sidebar('navbar-right'); ?> 								
-							<?php } // endif; ?> 
-							<!-- <ul class="nav navbar-nav navbar-right feature-link">
-        						<li class="active">
-        							<a href="/schedule-inspection">
-        								<i class="fa fa-calendar fa-1x"></i>&nbsp;&nbsp;&nbsp;
-        								Schedule Inspection
-        							</a>
-        						</li>
-        					</ul> -->
+							<?php if (is_active_sidebar('navbar-right')) { 								
+								dynamic_sidebar('navbar-right'); 
+							} ?> 
+
 							<a class="btn btn-danger navbar-btn navbar-right" href="/schedule-inspection">
 								<i class="fa fa-calendar fa-1x"></i>&nbsp;&nbsp;&nbsp;
 								Schedule Inspection
