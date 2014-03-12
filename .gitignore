@@ -1,13 +1,2 @@
 public_html/.htaccess
-public_html/wp-content/uploads/
-public_html/wp-content/blogs.dir/
-public_html/wp-content/upgrade/
-public_html/wp-content/backup-db/
-public_html/wp-content/advanced-cache.php
-public_html/wp-content/wp-cache-config.php
-public_html/sitemap.xml
-public_html/*.log
-public_html/wp-content/cache/
-public_html/wp-content/backups/
-public_html/sitemap.xml.gz
 public_html/wp-config.php
