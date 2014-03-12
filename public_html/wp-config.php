@@ -28,8 +28,8 @@ define('DB_PASSWORD', 'pdsiZE2ugU9m');
 define('DB_HOST', 'localhost');
 
 /** Set Site URL **/
-define('WP_HOME','http://xstreaminspections.com/');
-define('WP_SITEURL','http://xstreaminspections.com/');
+define('WP_HOME','xstream.paradoxcreative.com/');
+define('WP_SITEURL','xstream.paradoxcreative.com/');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
