@@ -19,17 +19,17 @@
 define('DB_NAME', 'wp_xstream');
 
 /** MySQL database username */
-define('DB_USER', 'wp_xstream');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'pdsiZE2ugU9m');
+define('DB_PASSWORD', 'D9KZdM8ejBRx');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
 
 /** Set Site URL **/
-define('WP_HOME','http://xstream.paradoxcreative.com/');
-define('WP_SITEURL','http://xstream.paradoxcreative.com/');
+define('WP_HOME','http://xstreaminspections.com/');
+define('WP_SITEURL','http://xstreaminspections.com/');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
