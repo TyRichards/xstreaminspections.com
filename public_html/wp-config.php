@@ -27,15 +27,15 @@ define('DB_PASSWORD', 'pdsiZE2ugU9m');
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
 
+/** Set Site Url */
+define('WP_HOME','http://xstream.paradoxcreative.com/');
+define('WP_SITEURL','http://xstream.paradoxcreative.com/');
+
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
-
-/** Set Site URL **/
-define('WP_HOME','http://xstream.paradoxcreative.com');
-define('WP_SITEURL','http://xstream.paradoxcreative.com');
 
 /**#@+
  * Authentication Unique Keys and Salts.
