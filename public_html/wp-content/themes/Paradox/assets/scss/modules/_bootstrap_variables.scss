@@ -10,17 +10,18 @@ $gray-light:            lighten(#000, 60%);   // #999
 $gray-lighter:          lighten(#000, 93.5%); // #eee
 
 // Color Conventions
-$brand-primary:         #2c3e50; // #4D6387; // #6AA7D0;
+$brand-primary:         #3498db; // #4D6387; // #6AA7D0;
 $brand-secondary:       #2980b9; // #428bca;
 $brand-success:         #5cb85c;
 $brand-info:            #3498db; // #5bc0de;
 $brand-warning:         #f0ad4e;
 $brand-danger:          #c0392b;
+$brand-dark:            #171717;
 
 // Scaffolding /////////////////////////////////////////////////////////////////
 $body-bg:               #ffffff; //#ecf0f1;
-$footer-bg-color:       $brand-primary;
-$header-bg-color:       $brand-primary;
+$header-bg-color:       $brand-dark;
+$footer-bg-color:       $header-bg-color;
 $text-color:            #7f8c8d;
 $link-color:            $brand-secondary;
 $link-hover-color:      darken($link-color, 15%);
@@ -54,7 +55,7 @@ $line-height-computed: floor(($font-size-base * $line-height-base));
 $headings-font-family:    inherit; //"Domine", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $headings-font-weight:    $regular;
 $headings-line-height:    1.1;
-$headings-color:          $brand-primary;
+$headings-color:          $brand-dark;
 
 //-- Iconography
 //
