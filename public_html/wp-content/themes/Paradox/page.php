@@ -8,6 +8,7 @@
 
 <?php get_header(); ?>
 
+
 <section class="primary-content">
     <div class="container">        
         <section class="page-content col-sm-7 container">                
