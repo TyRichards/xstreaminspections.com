@@ -45,7 +45,7 @@ Template Name: Home
 <section class="primary-content">
     <div class="container">        
         <section class="page-content col-sm-7 container">                
-            <main id="main" class="site-main" role="main">
+            <div id="main" class="site-main" role="main">
                 <?php 
                 while (have_posts()) {
                   the_post();
@@ -62,16 +62,17 @@ Template Name: Home
                   echo "\n\n";
 
                 } //endwhile;
-            ?> 
-            <a class="btn btn-danger" href="#">
-                <i class="fa fa-phone fa-1x">&nbsp;&nbsp;&nbsp;</i>
-                Call (972) 492-7920
-            </a>
-                &nbsp;&nbsp;
-            <a class="btn btn-danger" href="/contact-us">
-                <i class="fa fa-envelope fa-1x">&nbsp;&nbsp;&nbsp;</i>
-                Email Us
-            </a>            
+                ?> 
+                <a class="btn btn-danger" href="#">
+                    <i class="fa fa-phone fa-1x">&nbsp;&nbsp;&nbsp;</i>
+                    Call (972) 492-7920
+                </a>
+                    &nbsp;&nbsp;
+                <a class="btn btn-danger" href="/contact-us">
+                    <i class="fa fa-envelope fa-1x">&nbsp;&nbsp;&nbsp;</i>
+                    Email Us
+                </a> 
+            </div>           
 
         </section>
         <section class="sidebar col-sm-5">
