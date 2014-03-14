@@ -44,7 +44,7 @@ Template Name: Home
 
 <section class="primary-content">
     <div class="container">        
-        <section class="page-content col-sm-7 container">                
+        <section class="main-col page-content col-sm-7 container">                
             <div id="main" class="site-main" role="main">
                 <?php 
                 while (have_posts()) {
@@ -75,7 +75,7 @@ Template Name: Home
             </div>           
 
         </section>
-        <section class="sidebar col-sm-5">
+        <section class="sidebar-col sidebar-right sidebar col-sm-5">
             <div class="col-sm-10 col-sm-offset-2">
                 <?php get_sidebar('default'); ?>       
             </div>                       
