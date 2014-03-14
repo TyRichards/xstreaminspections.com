@@ -33,6 +33,14 @@ iframe {
 border: 1px solid #dddddd;
 }
 
+// Sidebar Feature Image /////////////////////////////////////////////////////////////////
+
+.sidebar-col .attachment-sidebar-thumb {
+margin-bottom: $space-md;
+max-width: 100%;
+height: auto;
+}
+
 // Buttons /////////////////////////////////////////////////////////////////
 
 .body-content .btn {

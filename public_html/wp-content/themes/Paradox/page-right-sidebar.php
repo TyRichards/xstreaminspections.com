@@ -41,6 +41,14 @@ Template Name: Right Sidebar
         </section>
         <section class="sidebar-col sidebar-right sidebar col-sm-5">
             <div class="col-sm-10 col-sm-offset-2">
+                <?php 
+                    if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+                    the_post_thumbnail('sidebar-thumb', array('class' => 'feature-image attachment-sidebar-thumb img-rounded' ));
+                    } 
+                    else {
+                        ?><img src="<?php echo get_template_directory_uri(); ?>/assets/images/sidebar-default.jpg" class="feature-image attachment-sidebar-thumb wp-post-image img-rounded" alt="<?php wp_title('|', true, 'right'); ?>"><?php
+                    }
+                ?>               	
                 <?php get_sidebar('default'); ?>       
             </div>                       
         </section>        
