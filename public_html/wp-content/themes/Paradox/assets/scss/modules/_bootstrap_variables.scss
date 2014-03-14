@@ -810,7 +810,7 @@ $navbar-default-link-active-bg:            transparent;
 // //##
 
 // //** Horizontal line color.
-// $hr-border:                   $gray-lighter;
+$hr-border:                   darken($body-bg, 15%);
 
 // //** Horizontal offset for forms and lists.
 // $component-offset-horizontal: 180px;

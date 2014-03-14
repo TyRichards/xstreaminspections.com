@@ -161,8 +161,11 @@ h4, h5, h6 {
 
 // Paragraph /////////////////////////////////////////////////////////////////
 
-.body-content p {
-    margin: $paragraph-margin;
+.body-content {
+
+    p, ul, ol {
+        margin: $paragraph-margin;
+    }
 }
 
 .lead {

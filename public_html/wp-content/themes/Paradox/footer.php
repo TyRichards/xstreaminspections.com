@@ -15,11 +15,17 @@
 			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bbb.png" alt="Better Business Bureau Accredited Business">
 			        </div>
 					<div>
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/fema.png" alt="FEMA Certified Disaster Housing Inspector #15007">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/zillow.png" alt="Zillow">
 			        </div>
 			        <div>
-			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/tpreia.png" alt="Professional Real Estate Inspector #6196">
+			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ccar.png" alt="Collin County Association of Realtors">
 			        </div>			        
+			        <div>
+			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/yelp.png" alt="Yelp">
+			        </div>			        
+			        <div>
+			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/cc.png" alt="We accept all forms of payment">
+			        </div>			        			        			        
 			    </div>
 			</section>					
 			

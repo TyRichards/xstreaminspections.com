@@ -21,7 +21,7 @@ Template Name: Home
         </div>
         <div class="col-sm-5">
             <div class="col-sm-11 col-sm-offset-1">
-                <h2>Inspect Your Investment</h2>
+                <h2 style="background: url('<?php echo get_template_directory_uri(); ?>/assets/images/clipboard.png') no-repeat top left; padding-left: 120px;">Inspect Your Investment</h2>
                 <p>
                     Our 200 point, 50-100 digitally documented inspection gives you the comfort of knowing that your real estate purchase, sale or lease is being tested, inspected and analyzed by the best in the business.
                 </p>
