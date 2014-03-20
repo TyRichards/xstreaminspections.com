@@ -7,18 +7,17 @@ Template Name: Right Sidebar
 <?php get_header(); ?>
 
 <section class="primary-content">
-    <div class="container">        
-        <section class="main-col page-content col-sm-7 container">                
+    <div class="container">
+        <section class="main-col page-content col-sm-7 container">
             <div id="main" class="site-main" role="main">
-                <?php 
+                <?php
                 while (have_posts()) {
                   the_post();
 
                   get_template_part('content', 'page');
 
                   echo "\n\n";
-                  
-                  // If comments are open or we have at least one comment, load up the comment template
+               // If comments are open or we have at least one comment, load up the comment template
                   if (comments_open() || '0' != get_comments_number()) {
                     comments_template();
                   }
@@ -26,7 +25,7 @@ Template Name: Right Sidebar
                   echo "\n\n";
 
                 } //endwhile;
-                ?> 
+                ?>
                 <a class="btn btn-danger" href="#">
                     <i class="fa fa-phone fa-1x">&nbsp;&nbsp;&nbsp;</i>
                     Call (972) 492-7920
@@ -35,9 +34,8 @@ Template Name: Right Sidebar
                 <a class="btn btn-danger" href="/contact-us">
                     <i class="fa fa-envelope fa-1x">&nbsp;&nbsp;&nbsp;</i>
                     Email Us
-                </a> 
-            </div>           
-
+                </a>                  
+           </div>
         </section>
         <section class="sidebar-col sidebar-right sidebar col-sm-5">
             <div class="col-sm-10 col-sm-offset-2">
@@ -48,11 +46,11 @@ Template Name: Right Sidebar
                     else {
                         ?><img src="<?php echo get_template_directory_uri(); ?>/assets/images/sidebar-default.jpg" class="feature-image attachment-sidebar-thumb wp-post-image img-rounded" alt="<?php wp_title('|', true, 'right'); ?>"><?php
                     }
-                ?>               	
-                <?php get_sidebar('default'); ?>       
-            </div>                       
-        </section>        
+                ?>         
+                <?php get_sidebar('default'); ?>
+            </div>
+        </section>
     </div>
 </section>
 
-<?php get_footer(); ?> 
+<?php get_footer(); ?>                

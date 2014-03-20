@@ -70,7 +70,7 @@
 							} ?> 
 
 							<a class="btn btn-danger navbar-btn navbar-right" href="/schedule-inspection">
-								<i class="fa fa-calendar fa-1x"></i>&nbsp;&nbsp;&nbsp;
+								<i class="fa fa-calendar fa-1x"></i>
 								Schedule Inspection
 							</a>        					
 						</div><!--.navbar-collapse-->

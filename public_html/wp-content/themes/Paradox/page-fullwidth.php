@@ -28,12 +28,12 @@ Template Name: Full Width
                 } //endwhile;
                 ?> 
                 <a class="btn btn-danger" href="#">
-                    <i class="fa fa-phone fa-1x">&nbsp;&nbsp;&nbsp;</i>
+                    <i class="fa fa-phone fa-1x"></i>
                     Call (972) 492-7920
                 </a>
                     &nbsp;&nbsp;
                 <a class="btn btn-danger" href="/contact-us">
-                    <i class="fa fa-envelope fa-1x">&nbsp;&nbsp;&nbsp;</i>
+                    <i class="fa fa-envelope fa-1x"></i>
                     Email Us
                 </a> 
             </div>           
