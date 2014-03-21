@@ -11,6 +11,11 @@
 // Medium devices (desktops, 992px and up)
 @media (min-width: $screen-md-min) {
 
+    .clipboard-icon {
+        background: image-url('clipboard.png') no-repeat top left; 
+        padding-left: 120px;
+    }
+
 }
 
 // Exclusive Media Queries /////////////////////////////////////////////////////////////////

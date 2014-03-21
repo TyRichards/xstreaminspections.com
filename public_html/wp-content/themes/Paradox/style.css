@@ -10339,29 +10339,36 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
 }
 
+@media (min-width: 992px) {
+  /* line 14, ../scss/partials/_states.scss */
+  .clipboard-icon {
+    background: url('/wp-content/themes/Paradox/assets/images/clipboard.png') no-repeat top left;
+    padding-left: 120px;
+  }
+}
 @media (max-width: 767px) {
-  /* line 21, ../scss/partials/_states.scss */
+  /* line 26, ../scss/partials/_states.scss */
   .col-no-padding-xs {
     padding-left: 0px;
     padding-right: 0px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 30, ../scss/partials/_states.scss */
+  /* line 35, ../scss/partials/_states.scss */
   .col-no-padding-sm {
     padding-left: 0px;
     padding-right: 0px;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* line 39, ../scss/partials/_states.scss */
+  /* line 44, ../scss/partials/_states.scss */
   .col-no-padding-md {
     padding-left: 0px;
     padding-right: 0px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 48, ../scss/partials/_states.scss */
+  /* line 53, ../scss/partials/_states.scss */
   .col-no-padding-lg {
     padding-left: 0px;
     padding-right: 0px;
