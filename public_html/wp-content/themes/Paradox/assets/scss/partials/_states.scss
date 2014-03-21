@@ -1,0 +1,52 @@
+// Inclusive Media Queries /////////////////////////////////////////////////////////////////
+
+// Extra small devices (phones, less than 768px)
+// No media query since this is the default in Bootstrap (These are included in modules & layouts sass files)
+
+// Small devices (tablets, 768px and up)
+@media (min-width: $screen-sm-min) {
+
+}
+
+// Medium devices (desktops, 992px and up)
+@media (min-width: $screen-md-min) {
+
+}
+
+// Exclusive Media Queries /////////////////////////////////////////////////////////////////
+
+// Extra small devices only (phones, less than 768px)
+@media (max-width: $screen-xs-max) {
+    
+    .col-no-padding-xs {
+        padding-left: 0px;
+        padding-right: 0px;
+    }        
+}
+
+// Small devices only (tablets, 768px to 992px)
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+
+    .col-no-padding-sm {
+        padding-left: 0px;
+        padding-right: 0px;
+    }      
+}
+
+// Medium devices only (desktops, 992px to 1200px)
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+
+    .col-no-padding-md {
+        padding-left: 0px;
+        padding-right: 0px;
+    }      
+}
+
+// Large devices only (large desktops, 1200px and up)
+@media (min-width: $screen-lg-min) {
+
+    .col-no-padding-lg {
+        padding-left: 0px;
+        padding-right: 0px;
+    }          
+}

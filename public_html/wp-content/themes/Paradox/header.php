@@ -27,14 +27,14 @@
 		<?php do_action('before'); ?> 
 		<header>			
 			<section class="container top-header">
-				<div class="col-md-6 header-left">
+				<div class="col-md-6 header-left col-no-padding-xs">
 <!-- 					<h2 class="site-title">
 						<a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home"><?php bloginfo('name'); ?></a>
 					</h2>
 					<p class="site-description">						
 						<?php bloginfo('description'); ?> 						
 					</p> -->
-					<div class="col-sm-9">
+					<div class="col-sm-9 col-no-padding-xs">
 			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/xstream-inspections-logo-darkbg.svg" alt="Xstream Inspections Commercial & Residential Inspections" width="100%" height="100%">
 			        </div>
 				</div>
