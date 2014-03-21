@@ -201,15 +201,6 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 40px;
     padding-bottom: 40px;
     border-bottom: 1px solid darken($body-bg, 10%); 
-
-    .container {
-        display: table;
-    
-        div {
-            display: table-cell;
-            text-align: center;
-        }
-    }
 }
 
 // Paragraph /////////////////////////////////////////////////////////////////

@@ -11,21 +11,24 @@
 			<!-- Credibility indicators -->
 			<section class="logos">
 			    <div class="container">
-			        <div>
-			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bbb.png" alt="Better Business Bureau Accredited Business">
+			        <div class="col-sm-2">
+			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bbb.png" alt="Better Business Bureau Accredited Business" width="100%">
 			        </div>
-					<div>
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/zillow.png" alt="Zillow">
+					<div class="col-sm-2">
+						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/zillow.png" alt="Zillow" width="100%">
 			        </div>
-			        <div>
-			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ccar.png" alt="Collin County Association of Realtors">
+			        <div class="col-sm-2">
+			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ccar.png" alt="Collin County Association of Realtors" width="100%">
 			        </div>			        
-			        <div>
-			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/yelp.png" alt="Yelp">
+			        <div class="col-sm-2">
+			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/yelp.png" alt="Yelp" width="100%">
 			        </div>			        
-			        <div>
-			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/cc.png" alt="We accept all forms of payment">
-			        </div>			        			        			        
+			        <div class="col-sm-2">
+			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/cc.png" alt="We accept all forms of payment" width="100%">
+			        </div>	
+			        <div class="col-sm-2">
+			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bbb.png" alt="We accept all forms of payment" width="100%">
+			        </div>				        		        			        			        
 			    </div>
 			</section>					
 			
