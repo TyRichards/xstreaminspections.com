@@ -78,7 +78,7 @@
 								dynamic_sidebar('navbar-right'); 
 							} ?> 
 
-							<a class="btn btn-danger navbar-btn navbar-right" href="/schedule-inspection">
+							<a class="btn btn-danger navbar-btn navbar-right hidden-xs" href="/schedule-inspection">
 								<i class="fa fa-calendar fa-1x"></i>
 								Schedule Inspection
 							</a>        					
