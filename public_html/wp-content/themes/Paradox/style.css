@@ -10107,7 +10107,7 @@ header .navbar-brand {
 }
 /* line 52, ../scss/partials/_modules.scss */
 header .navbar-brand img {
-  width: 255px;
+  width: 250px;
   height: auto;
   float: left;
 }
@@ -10170,38 +10170,39 @@ body > header > .top-navbar {
 .navbar-toggle {
   margin-top: 23px;
   margin-bottom: 23px;
+  margin-right: 6px;
 }
 
-/* line 115, ../scss/partials/_modules.scss */
+/* line 116, ../scss/partials/_modules.scss */
 .navbar-toggle i {
   color: #ffffff;
 }
 
-/* line 119, ../scss/partials/_modules.scss */
+/* line 120, ../scss/partials/_modules.scss */
 .navbar-toggle .icon-bar {
   height: 3px;
 }
 
-/* line 123, ../scss/partials/_modules.scss */
+/* line 124, ../scss/partials/_modules.scss */
 .navbar-collapse {
   max-height: 500px;
 }
 
-/* line 127, ../scss/partials/_modules.scss */
+/* line 128, ../scss/partials/_modules.scss */
 .navbar-toggle:focus {
   outline: none;
 }
 
-/* line 132, ../scss/partials/_modules.scss */
+/* line 133, ../scss/partials/_modules.scss */
 .small-footer {
   background: #0a0a0a;
 }
-/* line 135, ../scss/partials/_modules.scss */
+/* line 136, ../scss/partials/_modules.scss */
 .small-footer .footer-credits a,
 .small-footer .footer-menu .menu li a {
   padding-right: 25px;
 }
-/* line 140, ../scss/partials/_modules.scss */
+/* line 141, ../scss/partials/_modules.scss */
 .small-footer .footer-menu .menu li a {
   font-size: 14px;
 }
@@ -10215,62 +10216,62 @@ body > header > .top-navbar {
   color: #7f8c8d;
 }
 
-/* line 151, ../scss/partials/_modules.scss */
+/* line 152, ../scss/partials/_modules.scss */
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-/* line 157, ../scss/partials/_modules.scss */
+/* line 158, ../scss/partials/_modules.scss */
 .site-main h2, .site-main h3, .site-main h4, .site-main h5, .site-main h6 {
   margin: 35px 0 0 0;
   margin-bottom: 0px;
 }
 
-/* line 165, ../scss/partials/_modules.scss */
+/* line 166, ../scss/partials/_modules.scss */
 .top-header .widget h3 {
   font-size: 26px;
   font-family: "proxima-nova";
   font-weight: bold;
 }
 
-/* line 172, ../scss/partials/_modules.scss */
+/* line 173, ../scss/partials/_modules.scss */
 .site-title a {
   font-size: 36px;
 }
 
-/* line 178, ../scss/partials/_modules.scss */
+/* line 179, ../scss/partials/_modules.scss */
 .block {
   display: block;
 }
 
-/* line 184, ../scss/partials/_modules.scss */
+/* line 185, ../scss/partials/_modules.scss */
 .dropdown-menu {
   -moz-border-radius: 0px 0px 4px 4px;
   -webkit-border-radius: 0px;
   border-radius: 0px 0px 4px 4px;
 }
-/* line 187, ../scss/partials/_modules.scss */
+/* line 188, ../scss/partials/_modules.scss */
 .dropdown-menu li {
   display: list-item;
 }
-/* line 190, ../scss/partials/_modules.scss */
+/* line 191, ../scss/partials/_modules.scss */
 .dropdown-menu li a {
   color: #cccccc;
 }
 
-/* line 200, ../scss/partials/_modules.scss */
+/* line 201, ../scss/partials/_modules.scss */
 .nav .menu-item .dropdown-menu .menu-item a {
   padding: 10px 30px;
   border-top: 1px solid #242424;
 }
 
-/* line 206, ../scss/partials/_modules.scss */
+/* line 207, ../scss/partials/_modules.scss */
 .menu-item .dropdown-menu {
   padding: 0px 0px;
 }
 
-/* line 212, ../scss/partials/_modules.scss */
+/* line 213, ../scss/partials/_modules.scss */
 .body-content ul li:before {
   font-family: 'FontAwesome';
   content: "\f054";
@@ -10278,7 +10279,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #cccccc;
 }
 
-/* line 222, ../scss/partials/_modules.scss */
+/* line 223, ../scss/partials/_modules.scss */
 .body-content .gform_body ul li:before {
   font-family: inherit;
   content: none;
@@ -10286,7 +10287,7 @@ h1, h2, h3, h4, h5, h6 {
   color: inherit;
 }
 
-/* line 234, ../scss/partials/_modules.scss */
+/* line 235, ../scss/partials/_modules.scss */
 .logos {
   background: #eeeeee;
   padding-top: 40px;
@@ -10294,48 +10295,48 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid #e6e6e6;
 }
 
-/* line 245, ../scss/partials/_modules.scss */
+/* line 246, ../scss/partials/_modules.scss */
 .body-content p, .body-content ul, .body-content ol {
   margin: 35px 0 0 0;
 }
 
-/* line 250, ../scss/partials/_modules.scss */
+/* line 251, ../scss/partials/_modules.scss */
 .lead {
   font-size: 18px;
   font-weight: normal;
 }
 
-/* line 257, ../scss/partials/_modules.scss */
+/* line 258, ../scss/partials/_modules.scss */
 .widget ul.menu {
   list-style: none;
   padding-left: 0;
 }
 
-/* line 262, ../scss/partials/_modules.scss */
+/* line 263, ../scss/partials/_modules.scss */
 .body-content .widget {
   padding-bottom: 50px;
 }
 
-/* line 266, ../scss/partials/_modules.scss */
+/* line 267, ../scss/partials/_modules.scss */
 .sidebar .widget > div {
   margin-top: 25px;
 }
 
-/* line 270, ../scss/partials/_modules.scss */
+/* line 271, ../scss/partials/_modules.scss */
 .sidebar .widget div > ul, ol {
   padding-left: 0px;
 }
-/* line 273, ../scss/partials/_modules.scss */
+/* line 274, ../scss/partials/_modules.scss */
 .sidebar .widget div > ul li, ol li {
   margin-bottom: 10px;
 }
 
-/* line 278, ../scss/partials/_modules.scss */
+/* line 279, ../scss/partials/_modules.scss */
 .footer .widget {
   padding-bottom: 0px !important;
 }
 
-/* line 282, ../scss/partials/_modules.scss */
+/* line 283, ../scss/partials/_modules.scss */
 .widget_sp_image img {
   height: auto;
   -moz-border-radius: 4px;
@@ -10343,17 +10344,17 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
 }
 
-/* line 287, ../scss/partials/_modules.scss */
+/* line 288, ../scss/partials/_modules.scss */
 .top-header .widget-title {
   margin-bottom: 5px;
 }
 
-/* line 291, ../scss/partials/_modules.scss */
+/* line 292, ../scss/partials/_modules.scss */
 .small-footer .menu li {
   display: inline;
 }
 
-/* line 297, ../scss/partials/_modules.scss */
+/* line 298, ../scss/partials/_modules.scss */
 .btn-play {
   z-index: 1000;
   position: absolute;
@@ -10364,7 +10365,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -40px;
 }
 
-/* line 307, ../scss/partials/_modules.scss */
+/* line 308, ../scss/partials/_modules.scss */
 .player {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -10372,7 +10373,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #000000;
 }
 
-/* line 315, ../scss/partials/_modules.scss */
+/* line 316, ../scss/partials/_modules.scss */
 .flex-video img {
   position: absolute;
   top: 0;
