@@ -6,6 +6,10 @@
 // Small devices (tablets, 768px and up)
 @media (min-width: $screen-sm-min) {
 
+    .masthead {
+        background-color: $gray-lighter;
+    }
+
     .navbar-collapse .navbar-nav li {
        border: none;
     }
@@ -35,6 +39,11 @@
 
     header .navbar-brand img {
         width: 100%;
+    }    
+
+    .logos .container .cred-logo {
+        padding-left: 30px;
+        padding-right: 30px;
     }    
 
 }

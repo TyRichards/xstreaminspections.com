@@ -11,24 +11,36 @@
 			<!-- Credibility indicators -->
 			<section class="logos">
 			    <div class="container">
-			        <div class="col-sm-2">
-			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bbb.png" alt="Better Business Bureau Accredited Business" width="100%">
+			        <div class="col-sm-2 cred-logo">
+						<a href="http://www.bbb.org/dallas/business-reviews/drywall-inspectors/xstream-inspections-pc-in-carrollton-tx-90517768" target="_blank">
+				        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bbb.png" alt="Better Business Bureau Accredited Business" width="100%">
+			        	</a>
 			        </div>
-					<div class="col-sm-2">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/zillow.png" alt="Zillow" width="100%">
+					<div class="col-sm-2 cred-logo">
+						<a href="http://www.zillow.com/profile/xstreaminspections/" target="_blank">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/zillow.png" alt="Zillow" width="100%">
+						</a>
 			        </div>
-			        <div class="col-sm-2">
-			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ccar.png" alt="Collin County Association of Realtors" width="100%">
+			        <div class="col-sm-2 cred-logo">
+			        	<a href="http://www.ccar.net/" target="_blank">
+			        		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ccar.png" alt="Collin County Association of Realtors" width="100%">
+			        	</a>
+			        </div>			        			        
+			        <div class="col-sm-2 cred-logo">
+			        	<a href="http://www.yelp.com/biz/xstream-inspections-carrollton" target="_blank">
+				        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/yelp.png" alt="Yelp" width="100%">
+			        	</a>
 			        </div>			        
-			        <div class="col-sm-2">
-			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/yelp.png" alt="Yelp" width="100%">
-			        </div>			        
-			        <div class="col-sm-2">
-			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/cc.png" alt="We accept all forms of payment" width="100%">
+			        <div class="col-sm-2 cred-logo trec">
+			        	<a href="http://www.trec.texas.gov/complaintsconsumer/" target="_blank">
+			        		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/trec_regulated.png" alt="We accept all forms of payment" width="100%">
+			        	</a>
 			        </div>	
-			        <div class="col-sm-2">
-			        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/bbb.png" alt="We accept all forms of payment" width="100%">
-			        </div>				        		        			        			        
+			        <div class="col-sm-2 cred-logo">
+			        	<a href="" target="_blank">
+			        		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/cc.png" alt="We accept all forms of payment" width="100%">
+			        	</a>
+			        </div>				        			        		        			        			        
 			    </div>
 			</section>					
 			
@@ -78,11 +90,11 @@
 						        <div class="clearfix"></div>
 						        <div class="col-md-12">									   
 					                <p class="social-btns text-center">				                	
-					                	<a href="#" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
-					                	<a href="#" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-					                	<a href="#" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
-					                	<a href="#" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
-					                	<a href="#" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+					                	<a href="https://www.facebook.com/XstreamInspections" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+					                	<a href="https://twitter.com/XstreamInspect" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+					                	<a href="https://plus.google.com/106699679931898624099/posts" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
+					                	<a href="http://youtube.com/xstreaminspections" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
+					                	<a href="http://linkedin.com/pub/shelly-morgan/10/55a/402" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
 					              	</p>
 					            </div>
 					        </div>
