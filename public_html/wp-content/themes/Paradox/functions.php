@@ -133,9 +133,10 @@ add_action('widgets_init', 'bootstrapBasicWidgetsInit');
 function load_header_scripts() 
 {
 	// Stylesheets
+
+	wp_enqueue_style('shame-style', get_template_directory_uri() . '/assets/css/shame.css');	
 	wp_enqueue_style('paradox-style', get_stylesheet_uri());
 	// wp_enqueue_style('bootstrap-style', get_template_directory_uri() . '/assets/css/vendor/bootstrap.min.css');
-	wp_enqueue_style('shame-style', get_template_directory_uri() . '/assets/css/shame.css');
 
 }// bootstrapBasicEnqueueScripts
 add_action('wp_enqueue_scripts', 'load_header_scripts');
