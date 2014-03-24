@@ -10017,11 +10017,10 @@ body > header a, body > header p, body > header h6, body > header a:hover, body 
 
 /* line 46, ../scss/partials/_layouts.scss */
 .main-col {
-  padding-top: 75px;
   padding-bottom: 75px;
 }
 
-/* line 55, ../scss/partials/_layouts.scss */
+/* line 54, ../scss/partials/_layouts.scss */
 .footer {
   background-color: #171717;
   color: #6b6b6b;
@@ -10035,18 +10034,18 @@ body > header a, body > header p, body > header h6, body > header a:hover, body 
   color: #a3a3a3;
 }
 
-/* line 63, ../scss/partials/_layouts.scss */
+/* line 62, ../scss/partials/_layouts.scss */
 .more-foot {
   padding-top: 75px;
   padding-bottom: 75px;
 }
 
-/* line 70, ../scss/partials/_layouts.scss */
+/* line 69, ../scss/partials/_layouts.scss */
 .small-footer {
   border-top: 1px solid black;
   padding: 25px 0;
 }
-/* line 74, ../scss/partials/_layouts.scss */
+/* line 73, ../scss/partials/_layouts.scss */
 .small-footer ul, .small-footer ol, .small-footer p {
   margin-bottom: 0;
 }
