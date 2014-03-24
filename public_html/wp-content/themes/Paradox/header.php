@@ -59,16 +59,18 @@
 						<div class="navbar-header">	
 							<div class="col-xs-10 col-no-padding-xs visible-xs">
 								<a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home" width="100%">	
-									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/xstreaminspections-logo-sm.svg" alt="Xstream Inspections Commercial & Residential Inspections" style="width:100%">							
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/xstreaminspections-logo-sm.svg" alt="Xstream Inspections Commercial & Residential Inspections">							
 								</a>	
 							</div>											
 							<div class="col-xs-2 col-no-padding-xs">
-								<button type="button" class="navbar-toggle navbar-right" data-toggle="collapse" data-target=".navbar-primary-collapse">
+								<a type="button" class="navbar-toggle navbar-right" data-toggle="collapse" data-target=".navbar-primary-collapse">
 									<span class="sr-only"><?php _e('Toggle navigation', 'bootstrap-basic'); ?></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
+									<div class="extra-toggle-padding">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</div>
+								</a>
 							</div>					
 						</div>
 						
