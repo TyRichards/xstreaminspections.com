@@ -8,10 +8,10 @@
     color: lighten($bg-color, 33%);
     
     a:hover, .btn, .social-btns a:hover, h2, h3, ul li a:hover, .top-navbar .navbar .feature-link li a, .navbar .nav .menu-item > a:hover, body > header .navbar .nav .current-menu-item > a { 
-        color: #ffffff;
+        color: $navbar-default-link-hover-color; //#ffffff
       } 
     a, p, h6, a:hover, ul li a, .top-navbar .navbar .feature-link li a:hover, .navbar .nav .menu-item > a { 
-      color: lighten($bg-color, 55%); 
+      color: $navbar-default-link-color; 
     }
 
   } @else {
