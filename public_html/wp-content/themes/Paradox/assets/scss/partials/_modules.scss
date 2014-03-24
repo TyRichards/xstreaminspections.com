@@ -28,6 +28,10 @@ ol, ul {
     margin-bottom: 0px;
 }
 
+button:focus {
+outline: none;
+}
+
 li::before {
     // content: counter(foo) ".";
     display: table-cell; /* aha! */
@@ -43,11 +47,11 @@ border: 1px solid #dddddd;
 }
 
 header .navbar-brand {
-    padding-top: 10px;
+    padding-top: 15px;
 
     img {
-        width: 300px;
-        height: 55px;
+        width: 255px;
+        height: auto;
         float: left;
     }
 }
@@ -103,6 +107,11 @@ body > header > .top-navbar {
     border-bottom: 5px solid $gray-lighter;
 }
 
+.navbar-toggle {
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
 .navbar-toggle i {
     color: #ffffff;
 }
@@ -111,12 +120,12 @@ body > header > .top-navbar {
     height: 3px;
 }
 
-.extra-toggle-padding {
-    padding-top: 5px;
-}
-
 .navbar-collapse {
     max-height: 500px; // Sets height of dropdown responsive nav scrolling
+}
+
+.navbar-toggle:focus {
+outline: none;
 }
 
 // Small-Footer Navigation Menus /////////////////////////////////////////////////////////////////
