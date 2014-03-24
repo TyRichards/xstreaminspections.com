@@ -6,29 +6,9 @@ Template Name: Home
 
 <?php get_header(); ?>
 
-<!-- Mobile Landing Section -->
-<section class="mobile-landing visible-xs col-xs-12">
-    <div class="col-xs-6 col-no-padding-xs" style="padding-right:5px">
-    <a class="btn btn-primary btn-lg btn-block" href="/schedule-inspection">
-        (972) 492-7920
-    </a> 
-    </div>
-    <div class="col-xs-6 col-no-padding-xs" style="padding-left:5px">
-    <a class="btn btn-primary btn-lg btn-block" href="/schedule-inspection">
-        (214) 390-2050
-    </a> 
-    </div>
-    <div class="col-xs-12 col-no-padding-xs">
-    <a class="btn btn-danger btn-lg btn-block col-xs-12" href="/schedule-inspection" style="margin-top:0px">
-        <i class="fa fa-calendar fa-1x"></i>
-        Schedule Inspection
-    </a>
-    </div>
-</section>
-
 <!-- Subheader Section -->
 <section class="masthead">
-    <div class="container">        
+    <div class="container col-no-padding-xs">        
         <div class="col-sm-7"> 
             <div class="flex-video widescreen">
                 <a href="#">
@@ -38,17 +18,17 @@ Template Name: Home
             </div>
         </div>
         <div class="col-sm-5">
-            <div class="col-sm-11 col-sm-offset-1">
+            <div class="col-sm-11 col-sm-offset-1 col-no-padding-xs">
                 <h2 class="clipboard-icon" >Inspect Your Investment</h2>
                 <p>
                     Our 200 point, 50-100 digitally documented inspection gives you the comfort of knowing that your real estate purchase, sale or lease is being tested, inspected and analyzed by the best in the business.
                 </p>
-                <a class="btn btn-danger" href="/schedule-online">
+                <a class="btn btn-danger text-center" href="/schedule-online">
                     <i class="fa fa-building fa-1x"></i>
                     Commercial
                 </a>
                 &nbsp;
-                <a class="btn btn-primary" href="/schedule-online">
+                <a class="btn btn-primary text-center" href="/schedule-online">
                     <i class="fa fa-home fa-1x"></i>
                     Residential
                 </a>
@@ -61,8 +41,8 @@ Template Name: Home
 </section>
 
 <section class="primary-content">
-    <div class="container">
-        <section class="main-col page-content col-sm-7 container">
+    <div class="container col-no-padding-xs">
+        <section class="main-col page-content col-sm-7">
             <div id="main" class="site-main" role="main">
                 <?php
                 while (have_posts()) {
@@ -92,7 +72,7 @@ Template Name: Home
            </div>
         </section>
         <section class="sidebar-col sidebar-right sidebar col-sm-5">
-            <div class="col-sm-10 col-sm-offset-2">
+            <div class="col-sm-10 col-sm-offset-2 col-no-padding-xs">
                 <?php 
                     if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
                     the_post_thumbnail('sidebar-thumb', array('class' => 'feature-image attachment-sidebar-thumb img-rounded' ));

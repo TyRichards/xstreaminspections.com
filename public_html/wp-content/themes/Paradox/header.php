@@ -90,3 +90,23 @@
 			
 			
 		<div class="body-content">
+
+			<!-- Mobile Landing Section -->
+			<section class="mobile-landing visible-xs col-xs-12">
+			    <div class="col-xs-6 col-no-padding-xs phone" style="padding-right:5px">
+				    <a class="btn btn-primary btn-lg btn-block" href="/schedule-inspection">
+				        (972) 492-7920
+				    </a> 
+			    </div>
+			    <div class="col-xs-6 col-no-padding-xs phone" style="padding-left:5px">
+				    <a class="btn btn-primary btn-lg btn-block" href="/schedule-inspection">
+				        (214) 390-2050
+				    </a> 
+			    </div>
+			    <div class="col-xs-12 col-no-padding-xs call-to-action">
+				    <a class="btn btn-danger btn-lg btn-block col-xs-12" href="/schedule-inspection" style="margin-top:0px">
+				        <i class="fa fa-calendar fa-1x"></i>
+				        Schedule Inspection
+				    </a>
+			    </div>
+			</section>			

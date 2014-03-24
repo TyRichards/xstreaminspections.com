@@ -48,26 +48,28 @@
 									</p>
 								</div> -->
 								<div class="col-sm-9">
-						        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/xstream-inspections-logo-darkbg.svg" alt="Xstream Inspections Commercial & Residential Inspections" width="100%" height="100%">
+						        	<a class="footer-logo" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
+							        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/xstream-inspections-logo-darkbg.svg" alt="Xstream Inspections Commercial & Residential Inspections" width="100%" alt="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>">
+							        </a>
 						        </div>		
 					        </div>
-					        <nav>
-					            <div class="col-sm-2">
-									<?php dynamic_sidebar('footer-left'); ?>
-					            </div>
-					            <div class="col-sm-2">
-					            	<?php dynamic_sidebar('footer-right'); ?>
-	<!-- 				                <h6>Follow Us</h6>
-					                <ul>
-										<li><a href="#">Facebook</a>
-										</li>
-										<li><a href="#">Twitter</a>
-										</li>
-										<li><a href="#">Instagram</a>
-										</li>
-					                </ul> -->
-					            </div>
-					        </nav>
+					        
+				            <div class="col-sm-2 hidden-xs">
+								<?php dynamic_sidebar('footer-left'); ?>
+				            </div>
+				            <div class="col-sm-2 hidden-xs">
+				            	<?php dynamic_sidebar('footer-right'); ?>
+<!-- 				                <h6>Follow Us</h6>
+				                <ul>
+									<li><a href="#">Facebook</a>
+									</li>
+									<li><a href="#">Twitter</a>
+									</li>
+									<li><a href="#">Instagram</a>
+									</li>
+				                </ul> -->
+				            </div>
+					        
 					        <div class="col-sm-3">
 					            <a class="btn btn-danger btn-block" href="/schedule-inspection">
 									<i class="fa fa-calendar fa-1x"></i>
@@ -88,8 +90,8 @@
 			        </div>
 	      		</section>	      		
 	      		<section class="small-footer">
-	      			<div class="container">
-	      				<div class="col-sm-8">
+	      			<div class="container col-no-padding-xs">
+	      				<div class="col-xs-12 col-sm-8">
 			        		<div class="pull-left footer-credits">		        			
 			        			<small>
 			        				<a href="<?php echo esc_url(home_url('/')); ?>">
@@ -101,8 +103,8 @@
 			        			<?php dynamic_sidebar('footer-credits'); ?>
 			        		</div>
 		        		</div>
-		        		<div class="col-sm-4">
-			        		<div class="pull-right">
+		        		<div class="col-xs-12 col-sm-4">
+			        		<div class="pull-right no-float-xs">
 			        			<a href="http://paradoxcreative.com" target="_blank">
 			        				<small>Site crafted by Paradox</small>
 			        			</a>

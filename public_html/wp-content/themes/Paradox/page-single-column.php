@@ -7,8 +7,8 @@ Template Name: Single Column
 <?php get_header(); ?>
 
 <section class="primary-content">
-    <div class="container">        
-        <section class="main-col col-sm-8 col-sm-offset-2 page-content">                
+    <div class="container col-no-padding-xs">        
+        <section class="container main-col col-sm-8 col-sm-offset-2 page-content">                
             <div id="main" class="site-main" role="main">
                 <?php 
                 while (have_posts()) {

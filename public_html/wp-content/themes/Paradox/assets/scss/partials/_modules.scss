@@ -55,6 +55,15 @@ header .navbar-brand {
         float: left;
     }
 }
+
+// Masthead /////////////////////////////////////////////////////////////////
+
+.clipboard-icon {
+    background: image-url('clipboard.png') no-repeat top left; 
+    padding-left: 120px;
+    min-height: 91px;
+}
+
 // Sidebar Feature Image /////////////////////////////////////////////////////////////////
 
 .sidebar-col .attachment-sidebar-thumb {
@@ -66,7 +75,7 @@ header .navbar-brand {
 // Buttons /////////////////////////////////////////////////////////////////
 
 .body-content .btn {
-margin: $paragraph-margin;
+margin: $paragraph-top-margin;
 margin-bottom: 10px;
 }
 
@@ -153,19 +162,47 @@ color: #ffffff!important;
     color: $navbar-default-link-open-color!important;
 }
 
-// Small-Footer Navigation Menus /////////////////////////////////////////////////////////////////
-.small-footer {
-    background: $navbar-default-bg;
-    
-    .footer-credits a,
-    .footer-menu .menu li a {
-        padding-right: $space-sm;
-    }
-    
-    .footer-menu .menu li a {
-        font-size: $font-size-small;
+.mobile-landing {
+    border-bottom: 1px solid $hr-border;
+    padding-bottom: 10px;
+    margin-bottom: 18px;
+    background-color: $gray-lighter;
+
+    .phone a {
+        margin-top: 15px;
+        font-size: 17px;
+        padding: 14px 0px;
     }
 }
+
+// Small-Footer Navigation Menus /////////////////////////////////////////////////////////////////
+
+.footer-logo {
+    padding-bottom: $space-sm;
+    display: block;
+}
+
+.small-footer {
+    background: $navbar-default-bg;
+
+    a {
+        display: block;
+        text-align: center;
+    }
+
+    .footer-credits {
+        width: 100%;
+    }
+    
+    .footer-menu {
+        width: 100%;
+
+        .menu li a {
+            font-size: $font-size-small;
+        }
+    }
+}
+
 
 // Headings /////////////////////////////////////////////////////////////////
 
@@ -180,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .site-main {
     h2, h3, h4, h5, h6 {
-        margin: $paragraph-margin;
+        margin: $paragraph-top-margin;
         margin-bottom: 0px;
     }
 }
@@ -268,7 +305,7 @@ h1, h2, h3, h4, h5, h6 {
 .body-content {
 
     p, ul, ol {
-        margin: $paragraph-margin;
+        margin: $paragraph-top-margin;
     }
 }
 

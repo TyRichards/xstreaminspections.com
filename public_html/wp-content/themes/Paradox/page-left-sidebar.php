@@ -7,8 +7,8 @@ Template Name: Left Sidebar
 <?php get_header(); ?>
 
 <section class="primary-content">
-    <div class="container">        
-        <section class="main-col page-content col-sm-7 col-sm-push-5 container">                
+    <div class="container col-no-padding-xs">        
+        <section class="container main-col page-content col-sm-7 col-sm-push-5 container">                
             <div id="main" class="site-main" role="main">
                 <?php 
                 while (have_posts()) {
@@ -40,7 +40,7 @@ Template Name: Left Sidebar
 
         </section>
         <section class="sidebar-col sidebar sidebar-left col-sm-5 col-sm-pull-7">
-            <div class="col-sm-10">
+            <div class="col-sm-10 col-no-padding-xs">
                 <?php 
                     if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
                     the_post_thumbnail('sidebar-thumb', array('class' => 'feature-image attachment-sidebar-thumb img-rounded' ));

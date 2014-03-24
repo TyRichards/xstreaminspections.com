@@ -10,15 +10,28 @@
        border: none;
     }
 
+    .small-footer {
+
+        a {
+            display: inline;
+            text-align: left;        
+        }
+
+        .footer-menu, .footer-credits {
+            width: auto;
+        }    
+
+        .footer-credits a,
+        .footer-menu .menu li a {
+            padding-right: $space-sm;
+        }
+    }
+
+
 }
 
 // Medium devices (desktops, 992px and up)
 @media (min-width: $screen-md-min) {
-
-    .clipboard-icon {
-        background: image-url('clipboard.png') no-repeat top left; 
-        padding-left: 120px;
-    }
 
     header .navbar-brand img {
         width: 100%;
@@ -30,7 +43,53 @@
 
 // Extra small devices only (phones, less than 768px)
 @media (max-width: $screen-xs-max) {
+
+    .clipboard-icon {        
+        padding-left: 109px;
+        padding-top: 13px;        
+    }
+
+    .logos .container div {
+        padding: 10px 75px;
+    }    
     
+    .masthead, .primary-content, .more-foot, .small-footer, .main-col {
+        padding-top: ($space-lg - 50);        
+        padding-bottom: ($space-lg - 50);
+    }
+
+    .body-content {
+
+        h1 {
+            font-size: ($font-size-h1 * 0.7);
+        }
+        h2 {
+            font-size: ($font-size-h2 * 0.7);
+        } 
+        h3 {
+            font-size: ($font-size-h3 * 0.7);
+        }    
+        h4 {
+            font-size: ($font-size-h4 * 0.7);
+        } 
+        h5 {
+            font-size: ($font-size-h5 * 0.8);
+        }   
+        h6 {
+            // font-size: $font-size-h6;
+        }      
+
+        p, ul, ol {
+            margin: $mobile-paragraph-top-margin;
+        }                
+    }
+
+    .primary-content, .masthead, .logos, .footer {
+        .btn {
+            margin: $mobile-paragraph-top-margin;
+        }  
+    }
+
     .col-no-padding-xs {
         padding-left: 0px;
         padding-right: 0px;
@@ -39,6 +98,13 @@
     .navbar-header .navbar-brand {
         width: 100%;
     }
+
+    .no-float-xs {
+        float: none!important;
+    }
+
+
+
 }
 
 // Small devices only (tablets, 768px to 992px)
@@ -47,6 +113,10 @@
     .col-no-padding-sm {
         padding-left: 0px;
         padding-right: 0px;
+    }    
+
+    .no-float-sm {
+        float: none!important;
     }      
 }
 
@@ -56,7 +126,11 @@
     .col-no-padding-md {
         padding-left: 0px;
         padding-right: 0px;
-    }      
+    }   
+    
+    .no-float-md {
+        float: none!important;
+    }       
 }
 
 // Large devices only (large desktops, 1200px and up)
@@ -65,5 +139,9 @@
     .col-no-padding-lg {
         padding-left: 0px;
         padding-right: 0px;
-    }          
+    }        
+
+    .no-float-lg {
+        float: none!important;
+    }      
 }
