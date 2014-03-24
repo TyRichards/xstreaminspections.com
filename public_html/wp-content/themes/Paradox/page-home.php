@@ -9,32 +9,30 @@ Template Name: Home
 <!-- Subheader Section -->
 <section class="masthead">
     <div class="container col-no-padding-xs">        
-        <div class="col-sm-7"> 
-            <div class="flex-video widescreen">
-                <a href="#">
-                    <span class="fa fa-play-circle btn-play fa-5x" href="#"></span>
-                    <img class="player" src="<?php echo get_template_directory_uri(); ?>/assets/images/video-placeholder.png" alt="Xstream Inspections Commercial & Residential Inspections" width="100%" height="100%">
-                </a>                    
+        <div class="col-sm-10 col-sm-offset-1 col-md-7 col-md-offset-0"> 
+            <div class="flex-video widescreen">                
+                <iframe src="//www.youtube.com/embed/HR45Fcun7Gg?autohide=1&modestbranding=1&rel=0&showinfo=0" height="374" width="680" controls="2" allowfullscreen="" frameborder="0"></iframe>                                                      
             </div>
-        </div>
-        <div class="col-sm-5">
-            <div class="col-sm-11 col-sm-offset-1 col-no-padding-xs">
+        </div>        
+        <div class="col-sm-10 col-sm-offset-1 col-md-5 col-md-offset-0">
+            <div class="col-sm-12 col-md-11 col-md-offset-1 col-no-padding">
                 <h2 class="clipboard-icon" >Inspect Your Investment</h2>
-                <p>
-                    Our 200 point, 50-100 digitally documented inspection gives you the comfort of knowing that your real estate purchase, sale or lease is being tested, inspected and analyzed by the best in the business.
-                </p>
-                <a class="btn btn-danger text-center" href="/schedule-online">
-                    <i class="fa fa-building fa-1x"></i>
-                    Commercial
-                </a>
-                &nbsp;
-                <a class="btn btn-primary text-center" href="/schedule-online">
-                    <i class="fa fa-home fa-1x"></i>
-                    Residential
-                </a>
-                <div class="text-center">
-                or <a href="/about-us">Learn More</a>
+                <div class="col-xs-6 col-no-padding" style="padding-right:5px">
+                    <a class="btn btn-danger btn-block text-center" href="/schedule-online">
+                        <i class="fa fa-building fa-1x"></i>
+                        Commercial
+                    </a>
+                </div>                
+                <div class="col-xs-6 col-no-padding" style="padding-left:5px">
+                    <a class="btn btn-primary btn-block text-center" href="/schedule-online">
+                        <i class="fa fa-home fa-1x"></i>
+                        Residential
+                    </a>
                 </div>
+                <div class="clearfix"></div>                
+                <p>
+                    Our 200 point, 50-100 digitally documented inspection gives you the comfort of knowing that your real estate purchase, sale or lease is being tested, inspected and analyzed by the best in the business. <a href="/about-us">Learn More</a>
+                </p>
             </div>
         </div>        
     </div>
@@ -72,7 +70,7 @@ Template Name: Home
            </div>
         </section>
         <section class="sidebar-col sidebar-right sidebar col-sm-5">
-            <div class="col-sm-10 col-sm-offset-2 col-no-padding-xs">
+            <div class="col-sm-12 col-md-10 col-md-offset-2 col-no-padding-xs">
                 <?php 
                     if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
                     the_post_thumbnail('sidebar-thumb', array('class' => 'feature-image attachment-sidebar-thumb img-rounded' ));

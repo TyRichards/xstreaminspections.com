@@ -56,6 +56,11 @@ header .navbar-brand {
     }
 }
 
+.col-no-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}    
+
 // Masthead /////////////////////////////////////////////////////////////////
 
 .clipboard-icon {
@@ -178,7 +183,7 @@ color: #ffffff!important;
 // Small-Footer Navigation Menus /////////////////////////////////////////////////////////////////
 
 .footer-logo {
-    padding-bottom: $space-sm;
+    padding-bottom: $space-lg;
     display: block;
 }
 
@@ -374,10 +379,25 @@ background: #000000;
 // height: 357px;
 }
 
-.flex-video img {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
+.flex-video {
+    padding-top: 0px;
+    background: darken($gray-lighter, 10%);    
+    @include border-radius($border-radius-img);
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    iframe {
+        @include border-radius($border-radius-img);
+        padding: 5px;
+    }
+}
+
+.flex-video.widescreen {
+    padding-bottom: 56%;
 }
