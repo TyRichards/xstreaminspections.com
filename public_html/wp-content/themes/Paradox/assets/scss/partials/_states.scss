@@ -48,6 +48,8 @@
 
     .sidebar #widget_sp_image-3 img {
         width: 75%;
+        @include border-radius(200px);
+        border: 4px solid $hr-border;
     }    
 
 }

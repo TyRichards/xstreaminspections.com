@@ -290,6 +290,19 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+// Gravity Forms
+
+.ginput_container input, .ginput_container select, .ginput_container textarea {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.gform_wrapper .gform_button {
+    @extend .btn-primary    
+}
+
+
+
 .body-content .gform_body {
 
     ul li:before {

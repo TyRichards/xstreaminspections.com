@@ -22,15 +22,15 @@
 						</a>
 			        </div>
 			        <div class="col-sm-2 cred-logo">
-			        	<a href="http://www.ccar.net/" target="_blank">
-			        		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ccar.png" alt="Collin County Association of Realtors" width="100%">
-			        	</a>
-			        </div>			        			        
-			        <div class="col-sm-2 cred-logo">
 			        	<a href="http://www.yelp.com/biz/xstream-inspections-carrollton" target="_blank">
 				        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/yelp.png" alt="Yelp" width="100%">
 			        	</a>
-			        </div>			        
+			        </div>				        
+			        <div class="col-sm-2 cred-logo">
+			        	<a href="http://www.ccar.net/" target="_blank">
+			        		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/ccar.png" alt="Collin County Association of Realtors" width="100%">
+			        	</a>
+			        </div>			        			        		        
 			        <div class="col-sm-2 cred-logo trec">
 			        	<a href="http://www.trec.texas.gov/complaintsconsumer/" target="_blank">
 			        		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/trec_regulated.png" alt="We accept all forms of payment" width="100%">
