@@ -59,26 +59,26 @@ Template Name: Home
                 } //endwhile;
                 ?>
                 <a class="btn btn-danger" href="#">
-                    <i class="fa fa-phone fa-1x">&nbsp;&nbsp;&nbsp;</i>
+                    <i class="fa fa-phone fa-1x"></i>
                     Call (972) 492-7920
                 </a>
-                    &nbsp;&nbsp;
+                    
                 <a class="btn btn-danger" href="/contact-us">
-                    <i class="fa fa-envelope fa-1x">&nbsp;&nbsp;&nbsp;</i>
+                    <i class="fa fa-envelope fa-1x"></i>
                     Email Us
                 </a>                  
            </div>
         </section>
         <section class="sidebar-col sidebar-right sidebar col-sm-5">
             <div class="col-sm-12 col-md-10 col-md-offset-2 col-no-padding-xs">
-                <?php 
+<!--                 <?php 
                     if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
                     the_post_thumbnail('sidebar-thumb', array('class' => 'feature-image attachment-sidebar-thumb img-rounded' ));
                     } 
                     else {
-                        ?><img src="<?php echo get_template_directory_uri(); ?>/assets/images/sidebar-default.jpg" class="feature-image attachment-sidebar-thumb wp-post-image img-rounded" alt="<?php wp_title('|', true, 'right'); ?>"><?php
+                        ?><img src="<?php echo get_template_directory_uri(); ?>/assets/images/sidebar-default.jpg" class="feature-image attachment-sidebar-thumb wp-post-image img-rounded col-md-9 col-no-padding" alt="<?php wp_title('|', true, 'right'); ?>"><?php
                     }
-                ?>         
+                ?>   -->       
                 <?php get_sidebar('default'); ?>
             </div>
         </section>
