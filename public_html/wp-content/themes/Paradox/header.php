@@ -13,21 +13,18 @@
 	<head>
 		<meta charset="<?php bloginfo('charset'); ?>">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title><?php wp_title('|', true, 'right'); ?></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="description" content="<?php bloginfo('description'); ?>">
+		<meta name="author" content="Shelly Morgan">
+		<title><?php wp_title('|', true, 'right'); ?></title>		
+		<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon.png">
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">	
 
 		<?php wp_head(); ?>
-		<!-- SVG Magic -->
-		<script>
-		    $(img.replace).ready(function(){
-		        testmode: true,
-		        secure: true
-		    });
-		</script>		
+
 	</head>
 	<body <?php body_class(); ?>>
-		<!--[if lt IE 8]>
+		<!--[if lt IE 9]>
 			<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 		<![endif]-->
 		
@@ -44,7 +41,7 @@
 					</p> -->
 					<div class="main-logo col-sm-10 col-md-9 col-no-padding-xs">
 						<a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
-				        	<img class="replace" src="<?php echo get_template_directory_uri(); ?>/assets/images/xstream-inspections-logo-darkbg.svg" alt="Xstream Inspections Commercial & Residential Inspections" width="100%">
+				        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/xstream-inspections-logo-darkbg.svg" alt="Xstream Inspections Commercial & Residential Inspections" width="100%">
 				        </a>
 			        </div>			        
 				</div>
