@@ -46,6 +46,12 @@ iframe {
 border: 1px solid #dddddd;
 }
 
+.primary-content img {
+    @include border-radius($border-radius-img);
+    max-width: 100%;
+    height: auto;
+}
+
 header .navbar-brand {
     padding-top: 15px;
 
