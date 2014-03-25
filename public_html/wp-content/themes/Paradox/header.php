@@ -16,14 +16,14 @@
 		<title><?php wp_title('|', true, 'right'); ?></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">	
+
+		<?php wp_head(); ?>
 		<!-- SVG Magic -->
 		<script>
 		    $(document).ready(function(){
 		        $('img').svgmagic();
 		    });
-		</script>
-
-		<?php wp_head(); ?>
+		</script>		
 	</head>
 	<body <?php body_class(); ?>>
 		<!--[if lt IE 8]>
