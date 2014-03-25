@@ -87,6 +87,10 @@
 									<i class="fa fa-calendar fa-1x"></i>
 									Schedule Inspection
 								</a>  
+					            <a class="btn btn-danger btn-block" href="/schedule-inspection">
+									<i class="fa fa-phone fa-1x"></i>
+									Call (972) 492-7920
+								</a>  								
 						        <div class="clearfix"></div>
 						        <div class="col-md-12">									   
 					                <p class="social-btns text-center">				                	
