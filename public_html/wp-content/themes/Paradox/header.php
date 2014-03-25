@@ -20,8 +20,9 @@
 		<?php wp_head(); ?>
 		<!-- SVG Magic -->
 		<script>
-		    $(document).ready(function(){
-		        $('img').svgmagic();
+		    $(img.replace).ready(function(){
+		        testmode: true,
+		        secure: true
 		    });
 		</script>		
 	</head>
@@ -43,7 +44,7 @@
 					</p> -->
 					<div class="main-logo col-sm-10 col-md-9 col-no-padding-xs">
 						<a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
-				        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/xstream-inspections-logo-darkbg.svg" alt="Xstream Inspections Commercial & Residential Inspections" width="100%">
+				        	<img class="replace" src="<?php echo get_template_directory_uri(); ?>/assets/images/xstream-inspections-logo-darkbg.svg" alt="Xstream Inspections Commercial & Residential Inspections" width="100%">
 				        </a>
 			        </div>			        
 				</div>
