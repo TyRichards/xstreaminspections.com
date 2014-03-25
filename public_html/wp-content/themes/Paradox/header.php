@@ -24,9 +24,12 @@
 
 	</head>
 	<body <?php body_class(); ?>>
-		<!--[if lt IE 9]>
+		<!--[if lte IE 8]>
 			<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 		<![endif]-->
+		<!--[if lte IE 8]>
+			<meta http-equiv="REFRESH" content="0;url=http://www.browsehappy.com/">
+		<![endif]-->		
 		
 		
 		<?php do_action('before'); ?> 
