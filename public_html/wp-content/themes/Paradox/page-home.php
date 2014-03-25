@@ -18,13 +18,13 @@ Template Name: Home
             <div class="col-sm-12 col-md-11 col-md-offset-1 col-no-padding">
                 <h2 class="clipboard-icon" >Inspect Your Investment</h2>
                 <div class="col-xs-6 col-no-padding" style="padding-right:5px">
-                    <a class="btn btn-danger btn-block text-center" href="/schedule-online">
+                    <a class="btn btn-danger btn-block text-center" href="/commercial">
                         <i class="fa fa-building fa-1x"></i>
                         Commercial
                     </a>
                 </div>                
                 <div class="col-xs-6 col-no-padding" style="padding-left:5px">
-                    <a class="btn btn-primary btn-block text-center" href="/schedule-online">
+                    <a class="btn btn-primary btn-block text-center" href="/residential">
                         <i class="fa fa-home fa-1x"></i>
                         Residential
                     </a>
