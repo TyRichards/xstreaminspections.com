@@ -120,7 +120,7 @@
 			    </div>
 			    <div class="col-xs-6 col-no-padding-xs phone" style="padding-left:5px">
 				    <a class="btn btn-primary btn-lg btn-block" href="/schedule-inspection">
-				        (214) 390-2050
+				        (469) 401-2504
 				    </a> 
 			    </div>
 			    <div class="col-xs-12 col-no-padding-xs call-to-action">
