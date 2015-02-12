@@ -96,8 +96,8 @@
 					                <p class="social-btns text-center">				                	
 					                	<a href="https://www.facebook.com/XstreamInspections" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
 					                	<a href="https://twitter.com/XstreamInspect" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-					                	<a href="https://plus.google.com/106699679931898624099/posts" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
-					                	<a href="http://youtube.com/xstreaminspections" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
+					                	<a href="https://plus.google.com/+XstreamInspections" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a>
+					                	<a href="https://www.youtube.com/channel/UCo7pr3ro9v_fqlNr124V8zQ" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
 					                	<a href="http://linkedin.com/pub/shelly-morgan/10/55a/402" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
 					              	</p>
 					            </div>
