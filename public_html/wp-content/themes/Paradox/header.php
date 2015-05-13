@@ -54,7 +54,11 @@
 					<p class="site-description">						
 						<?php bloginfo('description'); ?> 						
 					</p> -->
-	        
+					<div class="main-logo col-sm-10 col-md-9 col-no-padding-xs">
+						<a href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" rel="home">
+				        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/xstream-inspections-logo-darkbg.svg" alt="Xstream Inspections Commercial & Residential Inspections" width="100%">
+				        </a>
+			        </div>			        
 				</div>
 				<div class="col-sm-5 col-md-6 header-right">
 					<div class="sr-only">
