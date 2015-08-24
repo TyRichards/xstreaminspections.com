@@ -22,7 +22,7 @@
 						</a>
 			        </div>
 			        <div class="col-sm-2 cred-logo">
-			        	<a href="https://plus.google.com/+Xstreaminspections/" target="_blank">
+			        	<a href="https://plus.google.com/+Xstreaminspections/about" target="_blank">
 				        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/googleplus.png" alt="Google Plus Reviews" width="100%">
 			        	</a>
 			        </div>				        
