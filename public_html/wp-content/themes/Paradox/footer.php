@@ -24,7 +24,7 @@
 			        <div class="col-sm-2 cred-logo">
 			        	<a href="https://www.google.com/webhp?ion=1&espv=2&ie=UTF-8#q=xstream%20inspections&lrd=0x864c23edf8f2f6ad:0xdfa8483a8edd588a,1" target="_blank">
 				        	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/googleplus.png" alt="Google Reviews" width="100%">
-			        	</a> 
+			        	</a>
 			        </div>				        
 			        <div class="col-sm-2 cred-logo">
 			        	<a href="http://www.ccar.net/" target="_blank">
