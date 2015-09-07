@@ -109,7 +109,7 @@
 		</header>		
 			
 			
-		<div class="body-content">
+		<div class="body-content"> 
 
 			<!-- Mobile Landing Section -->
 			<section class="mobile-landing visible-xs col-xs-12">
