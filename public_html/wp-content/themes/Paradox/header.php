@@ -26,7 +26,7 @@
 			<meta http-equiv="REFRESH" content="0;url=http://outdatedbrowser.com/">
 		<![endif]-->	
 	</head>
-	<body <?php body_class(); ?>>
+	<body <?php body_class(); ?>> 
 
 		<!-- Google Analytics -->
 		<script>
