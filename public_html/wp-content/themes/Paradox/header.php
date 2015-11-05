@@ -23,7 +23,7 @@
 		<?php wp_head(); ?>
 	
 		<!--[if lte IE 8]>
-			<meta http-equiv="REFRESH" content="0;url=http://www.browsehappy.com/">
+			<meta http-equiv="REFRESH" content="0;url=http://outdatedbrowser.com/">
 		<![endif]-->	
 	</head>
 	<body <?php body_class(); ?>>
